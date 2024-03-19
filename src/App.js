@@ -1,24 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { createEmotionCache } from './utils/create-emotion-cache';
+import { CacheProvider } from "@emotion/react";
+import { CssBaseline } from "@mui/material";
+import { RouterProvider } from "react-router-dom";
+import { router } from "./router";
+import ImageLionLoader from "./components/ImageLionLoader";
+import { ThemeProvider } from '@mui/material/styles';
+import { createTheme } from '@mui/material/styles';
+
+const clientSideEmotionCache = createEmotionCache();
 
 function App() {
+  const [loading, setLoading] = React.useState(true);
+
+  const theme = createTheme({
+    typography: {
+      fontFamily: 'Krub, sans-serif',
+    },
+  });
+
+  React.useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 1500);
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <CacheProvider value={clientSideEmotionCache}>
+      <ThemeProvider theme={theme}>
+        <CssBaseline />
+        {loading ?
+          <ImageLionLoader /> :
+          <RouterProvider router={router} />
+        }
+      </ThemeProvider>
+    </CacheProvider>
   );
 }
 
