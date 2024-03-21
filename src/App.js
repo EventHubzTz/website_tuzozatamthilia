@@ -6,18 +6,13 @@ import { RouterProvider } from "react-router-dom";
 import { router } from "./router";
 import ImageLionLoader from "./components/ImageLionLoader";
 import { ThemeProvider } from '@mui/material/styles';
-import { createTheme } from '@mui/material/styles';
+import { lightTheme } from "./theme";
 
 const clientSideEmotionCache = createEmotionCache();
 
 function App() {
   const [loading, setLoading] = React.useState(true);
-
-  const theme = createTheme({
-    typography: {
-      fontFamily: 'Krub, sans-serif',
-    },
-  });
+  const theme = lightTheme();
 
   React.useEffect(() => {
     setTimeout(() => {

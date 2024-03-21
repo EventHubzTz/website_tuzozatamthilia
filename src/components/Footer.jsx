@@ -10,7 +10,7 @@ function Footer() {
     return (
         <Box
             sx={{
-                backgroundColor: "#9E7003",
+                backgroundColor: "primary.main",
             }}
         >
             <Container>

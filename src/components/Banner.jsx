@@ -38,7 +38,11 @@ export default function Banner() {
                 href="/"
                 sx={{
                     minWidth: 200,
-                    bgcolor: "#9E7003"
+                    transition: 'all 0.5s',
+                    '&:hover': {
+                        transform: "scale3d(1.05, 1.15, 1)",
+                        bgcolor: "green"
+                    },
                 }}
             >
                 Login

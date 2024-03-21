@@ -13,7 +13,7 @@ function Home() {
             <Banner />
             <Box
                 component="section"
-                sx={{ display: 'flex', bgcolor: '#9E7003', overflow: 'hidden' }}
+                sx={{ display: 'flex', bgcolor: 'primary.main', overflow: 'hidden' }}
             >
                 <Container
                     sx={{
@@ -76,14 +76,28 @@ function Home() {
                 </Container>
             </Box>
             <Grid container sx={{ mt: 0 }}>
-                <Grid item xs={12} sm={12} md={6} lg={6} xl={6}>
+                <Grid item xs={12} sm={12} md={6} lg={6} xl={6} sx={{ position: "relative" }}>
                     <Box
                         component='img'
                         sx={{
-                            width: "100%"
+                            width: "100%",
                         }}
                         alt="Guitars"
                         src="assets/images/image1.jpg"
+                    />
+                    <Box
+                        sx={{
+                            position: 'absolute',
+                            top: 0,
+                            left: 0,
+                            width: '100%',
+                            height: '100%',
+                            background: 'rgba(0, 0, 0, 0.0)',
+                            transition: 'all 0.5s',
+                            '&:hover': {
+                                background: 'rgba(0, 0, 0, 0.3)',
+                            },
+                        }}
                     />
                 </Grid>
                 <Grid item xs={12} sm={12} md={6} lg={6} xl={6}>
@@ -253,32 +267,11 @@ function Home() {
                         <Box
                             component='img'
                             sx={{
-                                width: "100%"
-                            }}
-                            alt="Guitars"
-                            src="assets/images/image4.jpg"
-                        />
-                    </Box>
-                </Grid>
-                <Grid item xs={12} sm={12} md={3} lg={3} xl={3}>
-                    <Box
-                        sx={{
-                            display: "flex",
-                            flexDirection: "column",
-                            alignItems: "center",
-                            height: "100%"
-                        }}
-                    >
-                        <Typography variant='subtitle1' align="center" sx={{ fontWeight: 700 }}>
-                            Highlights
-                        </Typography>
-                        <Typography variant='h4' align="center">
-                            Artists
-                        </Typography>
-                        <Box
-                            component='img'
-                            sx={{
-                                width: "100%"
+                                width: "100%",
+                                transition: 'all 0.5s',
+                                '&:hover': {
+                                    transform: "scale3d(1, 1.02, 1.5)",
+                                },
                             }}
                             alt="Guitars"
                             src="assets/images/image3.jpg"
@@ -303,10 +296,14 @@ function Home() {
                         <Box
                             component='img'
                             sx={{
-                                width: "100%"
+                                width: "100%",
+                                transition: 'all 0.5s',
+                                '&:hover': {
+                                    transform: "scale3d(1, 1.02, 1.5)",
+                                },
                             }}
                             alt="Guitars"
-                            src="assets/images/image4.jpg"
+                            src="assets/images/image5.jpg"
                         />
                     </Box>
                 </Grid>
@@ -328,7 +325,40 @@ function Home() {
                         <Box
                             component='img'
                             sx={{
-                                width: "100%"
+                                width: "100%",
+                                transition: 'all 0.5s',
+                                '&:hover': {
+                                    transform: "scale3d(1, 1.02, 1.5)",
+                                },
+                            }}
+                            alt="Guitars"
+                            src="assets/images/image3.jpg"
+                        />
+                    </Box>
+                </Grid>
+                <Grid item xs={12} sm={12} md={3} lg={3} xl={3}>
+                    <Box
+                        sx={{
+                            display: "flex",
+                            flexDirection: "column",
+                            alignItems: "center",
+                            height: "100%"
+                        }}
+                    >
+                        <Typography variant='subtitle1' align="center" sx={{ fontWeight: 700 }}>
+                            Highlights
+                        </Typography>
+                        <Typography variant='h4' align="center">
+                            Artists
+                        </Typography>
+                        <Box
+                            component='img'
+                            sx={{
+                                width: "100%",
+                                transition: 'all 0.5s',
+                                '&:hover': {
+                                    transform: "scale3d(1, 1.02, 1.5)",
+                                },
                             }}
                             alt="Guitars"
                             src="assets/images/image5.jpg"
@@ -339,7 +369,7 @@ function Home() {
 
             <Box
                 component="section"
-                sx={{ display: 'flex', bgcolor: '#9E7003', overflow: 'hidden' }}
+                sx={{ display: 'flex', bgcolor: 'primary.main', overflow: 'hidden' }}
             >
                 <Container
                     sx={{
@@ -402,14 +432,28 @@ function Home() {
                 </Container>
             </Box>
             <Grid container sx={{ mt: 0 }}>
-                <Grid item xs={12} sm={12} md={6} lg={6} xl={6}>
+                <Grid item xs={12} sm={12} md={6} lg={6} xl={6} sx={{ position: "relative" }}>
                     <Box
                         component='img'
                         sx={{
-                            width: "100%"
+                            width: "100%",
                         }}
                         alt="Guitars"
                         src="assets/images/image1.jpg"
+                    />
+                    <Box
+                        sx={{
+                            position: 'absolute',
+                            top: 0,
+                            left: 0,
+                            width: '100%',
+                            height: '100%',
+                            background: 'rgba(0, 0, 0, 0.0)',
+                            transition: 'all 0.5s',
+                            '&:hover': {
+                                background: 'rgba(0, 0, 0, 0.3)',
+                            },
+                        }}
                     />
                 </Grid>
                 <Grid item xs={12} sm={12} md={6} lg={6} xl={6}>
@@ -579,32 +623,11 @@ function Home() {
                         <Box
                             component='img'
                             sx={{
-                                width: "100%"
-                            }}
-                            alt="Guitars"
-                            src="assets/images/image4.jpg"
-                        />
-                    </Box>
-                </Grid>
-                <Grid item xs={12} sm={12} md={3} lg={3} xl={3}>
-                    <Box
-                        sx={{
-                            display: "flex",
-                            flexDirection: "column",
-                            alignItems: "center",
-                            height: "100%"
-                        }}
-                    >
-                        <Typography variant='subtitle1' align="center" sx={{ fontWeight: 700 }}>
-                            Highlights
-                        </Typography>
-                        <Typography variant='h4' align="center">
-                            Artists
-                        </Typography>
-                        <Box
-                            component='img'
-                            sx={{
-                                width: "100%"
+                                width: "100%",
+                                transition: 'all 0.5s',
+                                '&:hover': {
+                                    transform: "scale3d(1, 1.02, 1.5)",
+                                },
                             }}
                             alt="Guitars"
                             src="assets/images/image3.jpg"
@@ -629,10 +652,14 @@ function Home() {
                         <Box
                             component='img'
                             sx={{
-                                width: "100%"
+                                width: "100%",
+                                transition: 'all 0.5s',
+                                '&:hover': {
+                                    transform: "scale3d(1, 1.02, 1.5)",
+                                },
                             }}
                             alt="Guitars"
-                            src="assets/images/image4.jpg"
+                            src="assets/images/image5.jpg"
                         />
                     </Box>
                 </Grid>
@@ -654,7 +681,40 @@ function Home() {
                         <Box
                             component='img'
                             sx={{
-                                width: "100%"
+                                width: "100%",
+                                transition: 'all 0.5s',
+                                '&:hover': {
+                                    transform: "scale3d(1, 1.02, 1.5)",
+                                },
+                            }}
+                            alt="Guitars"
+                            src="assets/images/image3.jpg"
+                        />
+                    </Box>
+                </Grid>
+                <Grid item xs={12} sm={12} md={3} lg={3} xl={3}>
+                    <Box
+                        sx={{
+                            display: "flex",
+                            flexDirection: "column",
+                            alignItems: "center",
+                            height: "100%"
+                        }}
+                    >
+                        <Typography variant='subtitle1' align="center" sx={{ fontWeight: 700 }}>
+                            Highlights
+                        </Typography>
+                        <Typography variant='h4' align="center">
+                            Artists
+                        </Typography>
+                        <Box
+                            component='img'
+                            sx={{
+                                width: "100%",
+                                transition: 'all 0.5s',
+                                '&:hover': {
+                                    transform: "scale3d(1, 1.02, 1.5)",
+                                },
                             }}
                             alt="Guitars"
                             src="assets/images/image5.jpg"
@@ -666,7 +726,7 @@ function Home() {
 
             <Box
                 component="section"
-                sx={{ display: 'flex', bgcolor: '#9E7003', overflow: 'hidden' }}
+                sx={{ display: 'flex', bgcolor: 'primary.main', overflow: 'hidden' }}
             >
                 <Container
                     sx={{
@@ -747,10 +807,14 @@ function Home() {
                         <Box
                             component='img'
                             sx={{
-                                width: "100%"
+                                width: "100%",
+                                transition: 'all 0.5s',
+                                '&:hover': {
+                                    transform: "scale3d(1, 1.02, 1.5)",
+                                },
                             }}
                             alt="Guitars"
-                            src="assets/images/image4.jpg"
+                            src="assets/images/image3.jpg"
                         />
                     </Box>
                 </Grid>
@@ -772,10 +836,14 @@ function Home() {
                         <Box
                             component='img'
                             sx={{
-                                width: "100%"
+                                width: "100%",
+                                transition: 'all 0.5s',
+                                '&:hover': {
+                                    transform: "scale3d(1, 1.02, 1.5)",
+                                },
                             }}
                             alt="Guitars"
-                            src="assets/images/image3.jpg"
+                            src="assets/images/image5.jpg"
                         />
                     </Box>
                 </Grid>
@@ -797,10 +865,14 @@ function Home() {
                         <Box
                             component='img'
                             sx={{
-                                width: "100%"
+                                width: "100%",
+                                transition: 'all 0.5s',
+                                '&:hover': {
+                                    transform: "scale3d(1, 1.02, 1.5)",
+                                },
                             }}
                             alt="Guitars"
-                            src="assets/images/image4.jpg"
+                            src="assets/images/image3.jpg"
                         />
                     </Box>
                 </Grid>
@@ -822,7 +894,11 @@ function Home() {
                         <Box
                             component='img'
                             sx={{
-                                width: "100%"
+                                width: "100%",
+                                transition: 'all 0.5s',
+                                '&:hover': {
+                                    transform: "scale3d(1, 1.02, 1.5)",
+                                },
                             }}
                             alt="Guitars"
                             src="assets/images/image5.jpg"
@@ -833,7 +909,7 @@ function Home() {
 
             <Box
                 component="section"
-                sx={{ display: 'flex', bgcolor: '#9E7003', overflow: 'hidden' }}
+                sx={{ display: 'flex', bgcolor: 'primary.main', overflow: 'hidden' }}
             >
                 <Container
                     sx={{
@@ -895,42 +971,58 @@ function Home() {
                     </Typography>
                 </Container>
             </Box>
-            <Grid container alignItems="center" sx={{ mt: 0 }}>
-                <Grid item xs={3} sm={3} md={3} lg={3} xl={3}>
+            <Grid container alignItems="center" justifyContent="center" sx={{ mt: 0 }}>
+                <Grid item xs={3} sm={3} md={3} lg={2} xl={2}>
                     <Box
                         component='img'
                         sx={{
-                            width: "100%"
+                            width: "100%",
+                            transition: 'all 0.5s',
+                            '&:hover': {
+                                transform: "scale3d(1.15, 1.15, 1)"
+                            },
                         }}
                         alt="Guitars"
                         src="assets/images/coca-cola.png"
                     />
                 </Grid>
-                <Grid item xs={3} sm={3} md={3} lg={3} xl={3}>
+                <Grid item xs={3} sm={3} md={3} lg={2} xl={2}>
                     <Box
                         component='img'
                         sx={{
-                            width: "100%"
+                            width: "100%",
+                            transition: 'all 0.5s',
+                            '&:hover': {
+                                transform: "scale3d(1.15, 1.15, 1)"
+                            },
                         }}
                         alt="Guitars"
                         src="assets/images/crdb.png"
                     />
                 </Grid>
-                <Grid item xs={3} sm={3} md={3} lg={3} xl={3}>
+                <Grid item xs={3} sm={3} md={3} lg={2} xl={2}>
                     <Box
                         component='img'
                         sx={{
-                            width: "100%"
+                            width: "100%",
+                            transition: 'all 0.5s',
+                            '&:hover': {
+                                transform: "scale3d(1.15, 1.15, 1)"
+                            },
                         }}
                         alt="Guitars"
                         src="assets/images/vodacom.png"
                     />
                 </Grid>
-                <Grid item xs={3} sm={3} md={3} lg={3} xl={3}>
+                <Grid item xs={3} sm={3} md={3} lg={2} xl={2}>
                     <Box
                         component='img'
                         sx={{
-                            width: "100%"
+                            width: "100%",
+                            transition: 'all 0.5s',
+                            '&:hover': {
+                                transform: "scale3d(1.15, 1.15, 1)"
+                            },
                         }}
                         alt="Guitars"
                         src="assets/images/toyota.png"
