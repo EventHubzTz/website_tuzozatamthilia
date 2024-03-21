@@ -36,7 +36,7 @@ function Home() {
                             opacity: 0.7,
                         }}
                     />
-                    <Typography variant='h3' align="center">
+                    <Typography variant='h3' align="center" sx={{ color: "white" }}>
                         Awards
                     </Typography>
                     <Divider
@@ -53,7 +53,8 @@ function Home() {
                         align="center"
                         sx={{
                             mt: 4,
-                            lineHeight: 1.8
+                            lineHeight: 1.8,
+                            color: "white"
                         }}
                     >
                         Known as the land of a thousand hills, Rwanda’s stunning scenery and warm, friendly <br />
@@ -66,7 +67,8 @@ function Home() {
                         align="center"
                         sx={{
                             mt: 4,
-                            lineHeight: 1.8
+                            lineHeight: 1.8,
+                            color: "white",
                         }}
                     >
                         Travellers come from far and wide to catch a glimpse of the magnificent gorillas, yet  <br />
@@ -365,7 +367,7 @@ function Home() {
                             opacity: 0.7,
                         }}
                     />
-                    <Typography variant='h3' align="center">
+                    <Typography variant='h3' align="center" sx={{ color: "white" }}>
                         Performance
                     </Typography>
                     <Divider
@@ -382,7 +384,8 @@ function Home() {
                         align="center"
                         sx={{
                             mt: 4,
-                            lineHeight: 1.8
+                            lineHeight: 1.8,
+                            color: "white"
                         }}
                     >
                         Known as the land of a thousand hills, Rwanda’s stunning scenery and warm, friendly <br />
@@ -395,7 +398,8 @@ function Home() {
                         align="center"
                         sx={{
                             mt: 4,
-                            lineHeight: 1.8
+                            lineHeight: 1.8,
+                            color: "white"
                         }}
                     >
                         Travellers come from far and wide to catch a glimpse of the magnificent gorillas, yet  <br />
@@ -695,7 +699,7 @@ function Home() {
                             opacity: 0.7,
                         }}
                     />
-                    <Typography variant='h3' align="center">
+                    <Typography variant='h3' align="center" sx={{ color: "white" }}>
                         Talents
                     </Typography>
                     <Divider
@@ -712,7 +716,8 @@ function Home() {
                         align="center"
                         sx={{
                             mt: 4,
-                            lineHeight: 1.8
+                            lineHeight: 1.8,
+                            color: "white"
                         }}
                     >
                         Known as the land of a thousand hills, Rwanda’s stunning scenery and warm, friendly <br />
@@ -725,7 +730,8 @@ function Home() {
                         align="center"
                         sx={{
                             mt: 4,
-                            lineHeight: 1.8
+                            lineHeight: 1.8,
+                            color: "white"
                         }}
                     >
                         Travellers come from far and wide to catch a glimpse of the magnificent gorillas, yet  <br />
@@ -861,7 +867,7 @@ function Home() {
                             opacity: 0.7,
                         }}
                     />
-                    <Typography variant='h3' align="center">
+                    <Typography variant='h3' align="center" sx={{ color: "white" }}>
                         Partnerships
                     </Typography>
                     <Divider
@@ -878,7 +884,8 @@ function Home() {
                         align="center"
                         sx={{
                             mt: 4,
-                            lineHeight: 1.8
+                            lineHeight: 1.8,
+                            color: "white"
                         }}
                     >
                         Known as the land of a thousand hills, Rwanda’s stunning scenery and warm, friendly <br />
@@ -891,7 +898,8 @@ function Home() {
                         align="center"
                         sx={{
                             mt: 4,
-                            lineHeight: 1.8
+                            lineHeight: 1.8,
+                            color: "white"
                         }}
                     >
                         Travellers come from far and wide to catch a glimpse of the magnificent gorillas, yet  <br />

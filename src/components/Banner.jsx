@@ -3,7 +3,7 @@ import BannerLayout from './BannerLayout';
 import { Button, Typography } from '@mui/material';
 
 const backgroundImage =
-    'assets/images/lion.webp';
+    'assets/images/mariola-grobelska-8a7ZTFKax_I-unsplash.jpg';
 
 export default function Banner() {
     return (

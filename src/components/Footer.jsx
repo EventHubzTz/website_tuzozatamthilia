@@ -11,7 +11,6 @@ function Footer() {
         <Box
             sx={{
                 backgroundColor: "#9E7003",
-                mt: 5
             }}
         >
             <Container>
