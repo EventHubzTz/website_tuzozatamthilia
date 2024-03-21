@@ -57,10 +57,9 @@ function Home() {
                             color: "white"
                         }}
                     >
-                        Known as the land of a thousand hills, Rwanda’s stunning scenery and warm, friendly <br />
-                        people offer unique experiences in one of the most remarkable countries in the <br />
-                        world. It is blessed with extraordinary biodiversity, with incredible wildlife living <br />
-                        throughout its volcanoes, montane rainforest and sweeping plains.
+                        We've been honored with prestigious awards from leading industry organizations <br />
+                        and associations, recognizing our contributions to innovation,  <br />
+                        leadership, and best practices in our field.
                     </Typography>
                     <Typography
                         variant='body1'
@@ -71,8 +70,8 @@ function Home() {
                             color: "white",
                         }}
                     >
-                        Travellers come from far and wide to catch a glimpse of the magnificent gorillas, yet  <br />
-                        there is so much more to see and experience.
+                        We're proud recipients of innovation awards that celebrate our pioneering spirit,  <br />
+                        groundbreaking technologies, and forward-thinking to solving  challenges.
                     </Typography>
                 </Container>
             </Box>
@@ -121,10 +120,9 @@ function Home() {
                                             lineHeight: 1.8
                                         }}
                                     >
-                                        Known as the land of a thousand hills, Rwanda’s stunning scenery and warm, friendly <br />
-                                        people offer unique experiences in one of the most remarkable countries in the <br />
-                                        world. It is blessed with extraordinary biodiversity, with incredible wildlife living <br />
-                                        throughout its volcanoes, montane rainforest and sweeping plains.
+                                        We've been honored with prestigious awards from leading industry organizations <br />
+                                        and associations, recognizing our contributions to innovation,  <br />
+                                        leadership, and best practices in our field.
                                     </Typography>
                                     <Typography
                                         variant='body1'
@@ -134,8 +132,8 @@ function Home() {
                                             lineHeight: 1.8
                                         }}
                                     >
-                                        Travellers come from far and wide to catch a glimpse of the magnificent gorillas, yet  <br />
-                                        there is so much more to see and experience.
+                                        We're proud recipients of innovation awards that celebrate our pioneering spirit,  <br />
+                                        groundbreaking technologies, and forward-thinking to solving  challenges.
                                     </Typography>
                                 </Box>
                                 <Box>
@@ -153,10 +151,9 @@ function Home() {
                                             lineHeight: 1.8
                                         }}
                                     >
-                                        Known as the land of a thousand hills, Rwanda’s stunning scenery and warm, friendly <br />
-                                        people offer unique experiences in one of the most remarkable countries in the <br />
-                                        world. It is blessed with extraordinary biodiversity, with incredible wildlife living <br />
-                                        throughout its volcanoes, montane rainforest and sweeping plains.
+                                        We've been honored with prestigious awards from leading industry organizations <br />
+                                        and associations, recognizing our contributions to innovation,  <br />
+                                        leadership, and best practices in our field.
                                     </Typography>
                                     <Typography
                                         variant='body1'
@@ -166,8 +163,8 @@ function Home() {
                                             lineHeight: 1.8
                                         }}
                                     >
-                                        Travellers come from far and wide to catch a glimpse of the magnificent gorillas, yet  <br />
-                                        there is so much more to see and experience.
+                                        We're proud recipients of innovation awards that celebrate our pioneering spirit,  <br />
+                                        groundbreaking technologies, and forward-thinking to solving  challenges.
                                     </Typography>
                                 </Box>
                                 <Box>
@@ -185,10 +182,9 @@ function Home() {
                                             lineHeight: 1.8
                                         }}
                                     >
-                                        Known as the land of a thousand hills, Rwanda’s stunning scenery and warm, friendly <br />
-                                        people offer unique experiences in one of the most remarkable countries in the <br />
-                                        world. It is blessed with extraordinary biodiversity, with incredible wildlife living <br />
-                                        throughout its volcanoes, montane rainforest and sweeping plains.
+                                        We've been honored with prestigious awards from leading industry organizations <br />
+                                        and associations, recognizing our contributions to innovation,  <br />
+                                        leadership, and best practices in our field.
                                     </Typography>
                                     <Typography
                                         variant='body1'
@@ -198,8 +194,8 @@ function Home() {
                                             lineHeight: 1.8
                                         }}
                                     >
-                                        Travellers come from far and wide to catch a glimpse of the magnificent gorillas, yet  <br />
-                                        there is so much more to see and experience.
+                                        We're proud recipients of innovation awards that celebrate our pioneering spirit,  <br />
+                                        groundbreaking technologies, and forward-thinking to solving  challenges.
                                     </Typography>
                                 </Box>
                                 <Box>
@@ -217,10 +213,9 @@ function Home() {
                                             lineHeight: 1.8
                                         }}
                                     >
-                                        Known as the land of a thousand hills, Rwanda’s stunning scenery and warm, friendly <br />
-                                        people offer unique experiences in one of the most remarkable countries in the <br />
-                                        world. It is blessed with extraordinary biodiversity, with incredible wildlife living <br />
-                                        throughout its volcanoes, montane rainforest and sweeping plains.
+                                        We've been honored with prestigious awards from leading industry organizations <br />
+                                        and associations, recognizing our contributions to innovation,  <br />
+                                        leadership, and best practices in our field.
                                     </Typography>
                                     <Typography
                                         variant='body1'
@@ -230,8 +225,8 @@ function Home() {
                                             lineHeight: 1.8
                                         }}
                                     >
-                                        Travellers come from far and wide to catch a glimpse of the magnificent gorillas, yet  <br />
-                                        there is so much more to see and experience.
+                                        We're proud recipients of innovation awards that celebrate our pioneering spirit,  <br />
+                                        groundbreaking technologies, and forward-thinking to solving  challenges.
                                     </Typography>
                                 </Box>
                             </Carousel>
@@ -388,10 +383,9 @@ function Home() {
                             color: "white"
                         }}
                     >
-                        Known as the land of a thousand hills, Rwanda’s stunning scenery and warm, friendly <br />
-                        people offer unique experiences in one of the most remarkable countries in the <br />
-                        world. It is blessed with extraordinary biodiversity, with incredible wildlife living <br />
-                        throughout its volcanoes, montane rainforest and sweeping plains.
+                        From soulful singers and acoustic guitarists to energetic bands and versatile DJs, our  <br />
+                        musicians bring rhythm, melody, and soul to your event, setting the <br />
+                        perfect ambiance and keeping guests entertained.
                     </Typography>
                     <Typography
                         variant='body1'
@@ -402,8 +396,8 @@ function Home() {
                             color: "white"
                         }}
                     >
-                        Travellers come from far and wide to catch a glimpse of the magnificent gorillas, yet  <br />
-                        there is so much more to see and experience.
+                        Our professional dancers specialize in a variety of styles, including contemporary, hip- <br />
+                        hop, and cultural dances, adding flair, and excitement to any performance.
                     </Typography>
                 </Container>
             </Box>
@@ -452,10 +446,9 @@ function Home() {
                                             lineHeight: 1.8
                                         }}
                                     >
-                                        Known as the land of a thousand hills, Rwanda’s stunning scenery and warm, friendly <br />
-                                        people offer unique experiences in one of the most remarkable countries in the <br />
-                                        world. It is blessed with extraordinary biodiversity, with incredible wildlife living <br />
-                                        throughout its volcanoes, montane rainforest and sweeping plains.
+                                        We've been honored with prestigious awards from leading industry organizations <br />
+                                        and associations, recognizing our contributions to innovation,  <br />
+                                        leadership, and best practices in our field.
                                     </Typography>
                                     <Typography
                                         variant='body1'
@@ -465,8 +458,8 @@ function Home() {
                                             lineHeight: 1.8
                                         }}
                                     >
-                                        Travellers come from far and wide to catch a glimpse of the magnificent gorillas, yet  <br />
-                                        there is so much more to see and experience.
+                                        We're proud recipients of innovation awards that celebrate our pioneering spirit,  <br />
+                                        groundbreaking technologies, and forward-thinking to solving  challenges.
                                     </Typography>
                                 </Box>
                                 <Box>
@@ -484,10 +477,9 @@ function Home() {
                                             lineHeight: 1.8
                                         }}
                                     >
-                                        Known as the land of a thousand hills, Rwanda’s stunning scenery and warm, friendly <br />
-                                        people offer unique experiences in one of the most remarkable countries in the <br />
-                                        world. It is blessed with extraordinary biodiversity, with incredible wildlife living <br />
-                                        throughout its volcanoes, montane rainforest and sweeping plains.
+                                        We've been honored with prestigious awards from leading industry organizations <br />
+                                        and associations, recognizing our contributions to innovation,  <br />
+                                        leadership, and best practices in our field.
                                     </Typography>
                                     <Typography
                                         variant='body1'
@@ -497,8 +489,8 @@ function Home() {
                                             lineHeight: 1.8
                                         }}
                                     >
-                                        Travellers come from far and wide to catch a glimpse of the magnificent gorillas, yet  <br />
-                                        there is so much more to see and experience.
+                                        We're proud recipients of innovation awards that celebrate our pioneering spirit,  <br />
+                                        groundbreaking technologies, and forward-thinking to solving  challenges.
                                     </Typography>
                                 </Box>
                                 <Box>
@@ -516,10 +508,9 @@ function Home() {
                                             lineHeight: 1.8
                                         }}
                                     >
-                                        Known as the land of a thousand hills, Rwanda’s stunning scenery and warm, friendly <br />
-                                        people offer unique experiences in one of the most remarkable countries in the <br />
-                                        world. It is blessed with extraordinary biodiversity, with incredible wildlife living <br />
-                                        throughout its volcanoes, montane rainforest and sweeping plains.
+                                        We've been honored with prestigious awards from leading industry organizations <br />
+                                        and associations, recognizing our contributions to innovation,  <br />
+                                        leadership, and best practices in our field.
                                     </Typography>
                                     <Typography
                                         variant='body1'
@@ -529,8 +520,8 @@ function Home() {
                                             lineHeight: 1.8
                                         }}
                                     >
-                                        Travellers come from far and wide to catch a glimpse of the magnificent gorillas, yet  <br />
-                                        there is so much more to see and experience.
+                                        We're proud recipients of innovation awards that celebrate our pioneering spirit,  <br />
+                                        groundbreaking technologies, and forward-thinking to solving  challenges.
                                     </Typography>
                                 </Box>
                                 <Box>
@@ -548,10 +539,9 @@ function Home() {
                                             lineHeight: 1.8
                                         }}
                                     >
-                                        Known as the land of a thousand hills, Rwanda’s stunning scenery and warm, friendly <br />
-                                        people offer unique experiences in one of the most remarkable countries in the <br />
-                                        world. It is blessed with extraordinary biodiversity, with incredible wildlife living <br />
-                                        throughout its volcanoes, montane rainforest and sweeping plains.
+                                        We've been honored with prestigious awards from leading industry organizations <br />
+                                        and associations, recognizing our contributions to innovation,  <br />
+                                        leadership, and best practices in our field.
                                     </Typography>
                                     <Typography
                                         variant='body1'
@@ -561,8 +551,8 @@ function Home() {
                                             lineHeight: 1.8
                                         }}
                                     >
-                                        Travellers come from far and wide to catch a glimpse of the magnificent gorillas, yet  <br />
-                                        there is so much more to see and experience.
+                                        We're proud recipients of innovation awards that celebrate our pioneering spirit,  <br />
+                                        groundbreaking technologies, and forward-thinking to solving  challenges.
                                     </Typography>
                                 </Box>
                             </Carousel>
@@ -720,10 +710,9 @@ function Home() {
                             color: "white"
                         }}
                     >
-                        Known as the land of a thousand hills, Rwanda’s stunning scenery and warm, friendly <br />
-                        people offer unique experiences in one of the most remarkable countries in the <br />
-                        world. It is blessed with extraordinary biodiversity, with incredible wildlife living <br />
-                        throughout its volcanoes, montane rainforest and sweeping plains.
+                        Our talent network spans a wide range of industries, sectors, and roles, offering diverse <br />
+                        opportunities for individuals with varying skills, backgrounds, and interests. <br />
+                        We're dedicated to supporting the growth and development of our talent.
                     </Typography>
                     <Typography
                         variant='body1'
@@ -734,8 +723,8 @@ function Home() {
                             color: "white"
                         }}
                     >
-                        Travellers come from far and wide to catch a glimpse of the magnificent gorillas, yet  <br />
-                        there is so much more to see and experience.
+                        Join a community of like-minded individuals who are passionate about making a   <br />
+                        collaborating on innovative projects, and contributing to meaningful work
                     </Typography>
                 </Container>
             </Box>
@@ -750,10 +739,10 @@ function Home() {
                         }}
                     >
                         <Typography variant='subtitle1' align="center" sx={{ fontWeight: 700 }}>
-                            Highlights
+                            Talents in
                         </Typography>
                         <Typography variant='h4' align="center">
-                            Artists
+                            Dancing
                         </Typography>
                         <Box
                             component='img'
@@ -775,10 +764,10 @@ function Home() {
                         }}
                     >
                         <Typography variant='subtitle1' align="center" sx={{ fontWeight: 700 }}>
-                            Highlights
+                            Talents in
                         </Typography>
                         <Typography variant='h4' align="center">
-                            Artists
+                            Singing
                         </Typography>
                         <Box
                             component='img'
@@ -800,10 +789,10 @@ function Home() {
                         }}
                     >
                         <Typography variant='subtitle1' align="center" sx={{ fontWeight: 700 }}>
-                            Highlights
+                            Talents in
                         </Typography>
                         <Typography variant='h4' align="center">
-                            Artists
+                            Shooting
                         </Typography>
                         <Box
                             component='img'
@@ -825,10 +814,10 @@ function Home() {
                         }}
                     >
                         <Typography variant='subtitle1' align="center" sx={{ fontWeight: 700 }}>
-                            Highlights
+                            Talents in
                         </Typography>
                         <Typography variant='h4' align="center">
-                            Artists
+                            Production
                         </Typography>
                         <Box
                             component='img'
@@ -888,10 +877,9 @@ function Home() {
                             color: "white"
                         }}
                     >
-                        Known as the land of a thousand hills, Rwanda’s stunning scenery and warm, friendly <br />
-                        people offer unique experiences in one of the most remarkable countries in the <br />
-                        world. It is blessed with extraordinary biodiversity, with incredible wildlife living <br />
-                        throughout its volcanoes, montane rainforest and sweeping plains.
+                        Collaborate with leading technology providers to integrate our solutions enhance  <br />
+                        interoperability, and deliver superior value to our customers. with resellers, <br />
+                        distributors, and channel partners to expand our market presence.
                     </Typography>
                     <Typography
                         variant='body1'
@@ -902,111 +890,51 @@ function Home() {
                             color: "white"
                         }}
                     >
-                        Travellers come from far and wide to catch a glimpse of the magnificent gorillas, yet  <br />
-                        there is so much more to see and experience.
+                        Partner with service providers, consultants, and system integrators to offer   <br />
+                        comprehensive solutions, implementation services, and support.
                     </Typography>
                 </Container>
             </Box>
-            <Grid container sx={{ mt: 1 }}>
-                <Grid item xs={12} sm={12} md={3} lg={3} xl={3}>
+            <Grid container alignItems="center" sx={{ mt: 0 }}>
+                <Grid item xs={3} sm={3} md={3} lg={3} xl={3}>
                     <Box
+                        component='img'
                         sx={{
-                            display: "flex",
-                            flexDirection: "column",
-                            alignItems: "center",
-                            height: "100%"
+                            width: "100%"
                         }}
-                    >
-                        <Typography variant='subtitle1' align="center" sx={{ fontWeight: 700 }}>
-                            Highlights
-                        </Typography>
-                        <Typography variant='h4' align="center">
-                            Artists
-                        </Typography>
-                        <Box
-                            component='img'
-                            sx={{
-                                width: "100%"
-                            }}
-                            alt="Guitars"
-                            src="assets/images/image4.jpg"
-                        />
-                    </Box>
+                        alt="Guitars"
+                        src="assets/images/coca-cola.png"
+                    />
                 </Grid>
-                <Grid item xs={12} sm={12} md={3} lg={3} xl={3}>
+                <Grid item xs={3} sm={3} md={3} lg={3} xl={3}>
                     <Box
+                        component='img'
                         sx={{
-                            display: "flex",
-                            flexDirection: "column",
-                            alignItems: "center",
-                            height: "100%"
+                            width: "100%"
                         }}
-                    >
-                        <Typography variant='subtitle1' align="center" sx={{ fontWeight: 700 }}>
-                            Highlights
-                        </Typography>
-                        <Typography variant='h4' align="center">
-                            Artists
-                        </Typography>
-                        <Box
-                            component='img'
-                            sx={{
-                                width: "100%"
-                            }}
-                            alt="Guitars"
-                            src="assets/images/image3.jpg"
-                        />
-                    </Box>
+                        alt="Guitars"
+                        src="assets/images/crdb.png"
+                    />
                 </Grid>
-                <Grid item xs={12} sm={12} md={3} lg={3} xl={3}>
+                <Grid item xs={3} sm={3} md={3} lg={3} xl={3}>
                     <Box
+                        component='img'
                         sx={{
-                            display: "flex",
-                            flexDirection: "column",
-                            alignItems: "center",
-                            height: "100%"
+                            width: "100%"
                         }}
-                    >
-                        <Typography variant='subtitle1' align="center" sx={{ fontWeight: 700 }}>
-                            Highlights
-                        </Typography>
-                        <Typography variant='h4' align="center">
-                            Artists
-                        </Typography>
-                        <Box
-                            component='img'
-                            sx={{
-                                width: "100%"
-                            }}
-                            alt="Guitars"
-                            src="assets/images/image4.jpg"
-                        />
-                    </Box>
+                        alt="Guitars"
+                        src="assets/images/vodacom.png"
+                    />
                 </Grid>
-                <Grid item xs={12} sm={12} md={3} lg={3} xl={3}>
+                <Grid item xs={3} sm={3} md={3} lg={3} xl={3}>
                     <Box
+                        component='img'
                         sx={{
-                            display: "flex",
-                            flexDirection: "column",
-                            alignItems: "center",
-                            height: "100%"
+                            width: "100%"
                         }}
-                    >
-                        <Typography variant='subtitle1' align="center" sx={{ fontWeight: 700 }}>
-                            Highlights
-                        </Typography>
-                        <Typography variant='h4' align="center">
-                            Artists
-                        </Typography>
-                        <Box
-                            component='img'
-                            sx={{
-                                width: "100%"
-                            }}
-                            alt="Guitars"
-                            src="assets/images/image5.jpg"
-                        />
-                    </Box>
+                        alt="Guitars"
+                        src="assets/images/toyota.png"
+                    />
                 </Grid>
             </Grid>
 
