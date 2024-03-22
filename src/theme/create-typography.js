@@ -1,6 +1,6 @@
 export const createTypography = () => {
   return {
-    fontFamily: '"Krub", sans-serif',
+    fontFamily: '"Shippori Mincho", serif',
     body1: {
       fontSize: '1rem',
       fontWeight: 400,
@@ -37,37 +37,31 @@ export const createTypography = () => {
       textTransform: 'uppercase'
     },
     h1: {
-      fontFamily: '\'Plus Jakarta Sans\', sans-serif',
       fontWeight: 700,
       fontSize: '3.5rem',
       lineHeight: 1.2
     },
     h2: {
-      fontFamily: '\'Plus Jakarta Sans\', sans-serif',
       fontWeight: 700,
       fontSize: '3rem',
       lineHeight: 1.2
     },
     h3: {
-      fontFamily: '\'Plus Jakarta Sans\', sans-serif',
       fontWeight: 700,
       fontSize: '2.25rem',
       lineHeight: 1.2
     },
     h4: {
-      fontFamily: '\'Plus Jakarta Sans\', sans-serif',
       fontWeight: 700,
       fontSize: '2rem',
       lineHeight: 1.2
     },
     h5: {
-      fontFamily: '\'Plus Jakarta Sans\', sans-serif',
       fontWeight: 700,
       fontSize: '1.5rem',
       lineHeight: 1.2
     },
     h6: {
-      fontFamily: '\'Plus Jakarta Sans\', sans-serif',
       fontWeight: 700,
       fontSize: '1.125rem',
       lineHeight: 1.2

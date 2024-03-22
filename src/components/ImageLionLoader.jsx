@@ -18,7 +18,7 @@ function ImageLionLoader() {
                     objectFit: "cover"
                 }}
                 alt="Lion"
-                src="assets/images/mariola-grobelska-8a7ZTFKax_I-unsplash.jpg"
+                src="assets/images/tma_lion.png"
             />
         </Box>
     )

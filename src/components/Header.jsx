@@ -82,6 +82,17 @@ function Header(props) {
                             <MenuOutlined />
                         </SvgIcon>
                     </IconButton>
+                    <Link to="/" style={{ display: { xs: 'none', sm: 'block' } }}>
+                        <Box
+                            component='img'
+                            alt="Logo"
+                            src="assets/images/tma_logo.png"
+                            sx={{
+                                width: 80,
+                                display: { xs: 'none', sm: 'block' }
+                            }}
+                        />
+                    </Link>
                     <Link to="/" style={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}>
                         <Typography
                             variant="h6"

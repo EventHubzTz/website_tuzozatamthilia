@@ -3,18 +3,17 @@ import BannerLayout from './BannerLayout';
 import { Button, Typography } from '@mui/material';
 
 const backgroundImage =
-    'assets/images/mariola-grobelska-8a7ZTFKax_I-unsplash.jpg';
+    'assets/images/tma_lion.png';
 
 export default function Banner() {
     return (
         <BannerLayout
             sxBackground={{
                 backgroundImage: `url(${backgroundImage})`,
-                backgroundColor: '#7fc7d9', // Average color of the background image.
+                backgroundColor: 'primary.main',
                 backgroundPosition: 'center',
             }}
         >
-            {/* Increase the network loading priority of the background image. */}
             <img
                 style={{ display: 'none' }}
                 src={backgroundImage}
