@@ -101,151 +101,153 @@ function Home() {
                     />
                 </Grid>
                 <Grid item xs={12} sm={12} md={6} lg={6} xl={6}>
-                    <Box
-                        sx={{
-                            display: "flex",
-                            flexDirection: "column",
-                            alignItems: "center",
-                            height: "100%"
-                        }}
-                    >
+                    <Container>
                         <Box
                             sx={{
-                                width: "100%",
-                                height: "100%",
-                                mt: { xs: 6, sm: 6, md: 6, lg: 15 }
+                                display: "flex",
+                                flexDirection: "column",
+                                alignItems: "center",
+                                height: "100%"
                             }}
                         >
-                            <Carousel
-                                indicators
+                            <Box
+                                sx={{
+                                    width: "100%",
+                                    height: "100%",
+                                    mt: { xs: 6, sm: 6, md: 6, lg: 15 }
+                                }}
                             >
-                                <Box>
-                                    <Typography variant='subtitle1' align="center" sx={{ fontWeight: 700 }}>
-                                        Highlights
-                                    </Typography>
-                                    <Typography variant='h4' align="center">
-                                        Categories
-                                    </Typography>
-                                    <Typography
-                                        variant='body1'
-                                        align="center"
-                                        sx={{
-                                            mt: 4,
-                                            lineHeight: 1.8
-                                        }}
-                                    >
-                                        We've been honored with prestigious awards from leading industry organizations <br />
-                                        and associations, recognizing our contributions to innovation,  <br />
-                                        leadership, and best practices in our field.
-                                    </Typography>
-                                    <Typography
-                                        variant='body1'
-                                        align="center"
-                                        sx={{
-                                            mt: 4,
-                                            lineHeight: 1.8
-                                        }}
-                                    >
-                                        We're proud recipients of innovation awards that celebrate our pioneering spirit,  <br />
-                                        groundbreaking technologies, and forward-thinking to solving  challenges.
-                                    </Typography>
-                                </Box>
-                                <Box>
-                                    <Typography variant='subtitle1' align="center" sx={{ fontWeight: 700 }}>
-                                        Highlights
-                                    </Typography>
-                                    <Typography variant='h4' align="center">
-                                        Performers
-                                    </Typography>
-                                    <Typography
-                                        variant='body1'
-                                        align="center"
-                                        sx={{
-                                            mt: 4,
-                                            lineHeight: 1.8
-                                        }}
-                                    >
-                                        We've been honored with prestigious awards from leading industry organizations <br />
-                                        and associations, recognizing our contributions to innovation,  <br />
-                                        leadership, and best practices in our field.
-                                    </Typography>
-                                    <Typography
-                                        variant='body1'
-                                        align="center"
-                                        sx={{
-                                            mt: 4,
-                                            lineHeight: 1.8
-                                        }}
-                                    >
-                                        We're proud recipients of innovation awards that celebrate our pioneering spirit,  <br />
-                                        groundbreaking technologies, and forward-thinking to solving  challenges.
-                                    </Typography>
-                                </Box>
-                                <Box>
-                                    <Typography variant='subtitle1' align="center" sx={{ fontWeight: 700 }}>
-                                        Highlights
-                                    </Typography>
-                                    <Typography variant='h4' align="center">
-                                        Artists
-                                    </Typography>
-                                    <Typography
-                                        variant='body1'
-                                        align="center"
-                                        sx={{
-                                            mt: 4,
-                                            lineHeight: 1.8
-                                        }}
-                                    >
-                                        We've been honored with prestigious awards from leading industry organizations <br />
-                                        and associations, recognizing our contributions to innovation,  <br />
-                                        leadership, and best practices in our field.
-                                    </Typography>
-                                    <Typography
-                                        variant='body1'
-                                        align="center"
-                                        sx={{
-                                            mt: 4,
-                                            lineHeight: 1.8
-                                        }}
-                                    >
-                                        We're proud recipients of innovation awards that celebrate our pioneering spirit,  <br />
-                                        groundbreaking technologies, and forward-thinking to solving  challenges.
-                                    </Typography>
-                                </Box>
-                                <Box>
-                                    <Typography variant='subtitle1' align="center" sx={{ fontWeight: 700 }}>
-                                        Highlights
-                                    </Typography>
-                                    <Typography variant='h4' align="center">
-                                        Awards
-                                    </Typography>
-                                    <Typography
-                                        variant='body1'
-                                        align="center"
-                                        sx={{
-                                            mt: 4,
-                                            lineHeight: 1.8
-                                        }}
-                                    >
-                                        We've been honored with prestigious awards from leading industry organizations <br />
-                                        and associations, recognizing our contributions to innovation,  <br />
-                                        leadership, and best practices in our field.
-                                    </Typography>
-                                    <Typography
-                                        variant='body1'
-                                        align="center"
-                                        sx={{
-                                            mt: 4,
-                                            lineHeight: 1.8
-                                        }}
-                                    >
-                                        We're proud recipients of innovation awards that celebrate our pioneering spirit,  <br />
-                                        groundbreaking technologies, and forward-thinking to solving  challenges.
-                                    </Typography>
-                                </Box>
-                            </Carousel>
+                                <Carousel
+                                    indicators
+                                >
+                                    <Box>
+                                        <Typography variant='subtitle1' align="center" sx={{ fontWeight: 700 }}>
+                                            Highlights
+                                        </Typography>
+                                        <Typography variant='h4' align="center">
+                                            Categories
+                                        </Typography>
+                                        <Typography
+                                            variant='body1'
+                                            align="center"
+                                            sx={{
+                                                mt: 4,
+                                                lineHeight: 1.8
+                                            }}
+                                        >
+                                            We've been honored with prestigious awards from leading industry organizations <br />
+                                            and associations, recognizing our contributions to innovation,  <br />
+                                            leadership, and best practices in our field.
+                                        </Typography>
+                                        <Typography
+                                            variant='body1'
+                                            align="center"
+                                            sx={{
+                                                mt: 4,
+                                                lineHeight: 1.8
+                                            }}
+                                        >
+                                            We're proud recipients of innovation awards that celebrate our pioneering spirit,  <br />
+                                            groundbreaking technologies, and forward-thinking to solving  challenges.
+                                        </Typography>
+                                    </Box>
+                                    <Box>
+                                        <Typography variant='subtitle1' align="center" sx={{ fontWeight: 700 }}>
+                                            Highlights
+                                        </Typography>
+                                        <Typography variant='h4' align="center">
+                                            Performers
+                                        </Typography>
+                                        <Typography
+                                            variant='body1'
+                                            align="center"
+                                            sx={{
+                                                mt: 4,
+                                                lineHeight: 1.8
+                                            }}
+                                        >
+                                            We've been honored with prestigious awards from leading industry organizations <br />
+                                            and associations, recognizing our contributions to innovation,  <br />
+                                            leadership, and best practices in our field.
+                                        </Typography>
+                                        <Typography
+                                            variant='body1'
+                                            align="center"
+                                            sx={{
+                                                mt: 4,
+                                                lineHeight: 1.8
+                                            }}
+                                        >
+                                            We're proud recipients of innovation awards that celebrate our pioneering spirit,  <br />
+                                            groundbreaking technologies, and forward-thinking to solving  challenges.
+                                        </Typography>
+                                    </Box>
+                                    <Box>
+                                        <Typography variant='subtitle1' align="center" sx={{ fontWeight: 700 }}>
+                                            Highlights
+                                        </Typography>
+                                        <Typography variant='h4' align="center">
+                                            Artists
+                                        </Typography>
+                                        <Typography
+                                            variant='body1'
+                                            align="center"
+                                            sx={{
+                                                mt: 4,
+                                                lineHeight: 1.8
+                                            }}
+                                        >
+                                            We've been honored with prestigious awards from leading industry organizations <br />
+                                            and associations, recognizing our contributions to innovation,  <br />
+                                            leadership, and best practices in our field.
+                                        </Typography>
+                                        <Typography
+                                            variant='body1'
+                                            align="center"
+                                            sx={{
+                                                mt: 4,
+                                                lineHeight: 1.8
+                                            }}
+                                        >
+                                            We're proud recipients of innovation awards that celebrate our pioneering spirit,  <br />
+                                            groundbreaking technologies, and forward-thinking to solving  challenges.
+                                        </Typography>
+                                    </Box>
+                                    <Box>
+                                        <Typography variant='subtitle1' align="center" sx={{ fontWeight: 700 }}>
+                                            Highlights
+                                        </Typography>
+                                        <Typography variant='h4' align="center">
+                                            Awards
+                                        </Typography>
+                                        <Typography
+                                            variant='body1'
+                                            align="center"
+                                            sx={{
+                                                mt: 4,
+                                                lineHeight: 1.8
+                                            }}
+                                        >
+                                            We've been honored with prestigious awards from leading industry organizations <br />
+                                            and associations, recognizing our contributions to innovation,  <br />
+                                            leadership, and best practices in our field.
+                                        </Typography>
+                                        <Typography
+                                            variant='body1'
+                                            align="center"
+                                            sx={{
+                                                mt: 4,
+                                                lineHeight: 1.8
+                                            }}
+                                        >
+                                            We're proud recipients of innovation awards that celebrate our pioneering spirit,  <br />
+                                            groundbreaking technologies, and forward-thinking to solving  challenges.
+                                        </Typography>
+                                    </Box>
+                                </Carousel>
+                            </Box>
                         </Box>
-                    </Box>
+                    </Container>
                 </Grid>
             </Grid>
             <Grid container sx={{ mt: 1 }}>
@@ -457,151 +459,153 @@ function Home() {
                     />
                 </Grid>
                 <Grid item xs={12} sm={12} md={6} lg={6} xl={6}>
-                    <Box
-                        sx={{
-                            display: "flex",
-                            flexDirection: "column",
-                            alignItems: "center",
-                            height: "100%"
-                        }}
-                    >
+                    <Container>
                         <Box
                             sx={{
-                                width: "100%",
-                                height: "100%",
-                                mt: { xs: 6, sm: 6, md: 6, lg: 15 }
+                                display: "flex",
+                                flexDirection: "column",
+                                alignItems: "center",
+                                height: "100%"
                             }}
                         >
-                            <Carousel
-                                indicators
+                            <Box
+                                sx={{
+                                    width: "100%",
+                                    height: "100%",
+                                    mt: { xs: 6, sm: 6, md: 6, lg: 15 }
+                                }}
                             >
-                                <Box>
-                                    <Typography variant='subtitle1' align="center" sx={{ fontWeight: 700 }}>
-                                        Highlights
-                                    </Typography>
-                                    <Typography variant='h4' align="center">
-                                        Categories
-                                    </Typography>
-                                    <Typography
-                                        variant='body1'
-                                        align="center"
-                                        sx={{
-                                            mt: 4,
-                                            lineHeight: 1.8
-                                        }}
-                                    >
-                                        We've been honored with prestigious awards from leading industry organizations <br />
-                                        and associations, recognizing our contributions to innovation,  <br />
-                                        leadership, and best practices in our field.
-                                    </Typography>
-                                    <Typography
-                                        variant='body1'
-                                        align="center"
-                                        sx={{
-                                            mt: 4,
-                                            lineHeight: 1.8
-                                        }}
-                                    >
-                                        We're proud recipients of innovation awards that celebrate our pioneering spirit,  <br />
-                                        groundbreaking technologies, and forward-thinking to solving  challenges.
-                                    </Typography>
-                                </Box>
-                                <Box>
-                                    <Typography variant='subtitle1' align="center" sx={{ fontWeight: 700 }}>
-                                        Highlights
-                                    </Typography>
-                                    <Typography variant='h4' align="center">
-                                        Performers
-                                    </Typography>
-                                    <Typography
-                                        variant='body1'
-                                        align="center"
-                                        sx={{
-                                            mt: 4,
-                                            lineHeight: 1.8
-                                        }}
-                                    >
-                                        We've been honored with prestigious awards from leading industry organizations <br />
-                                        and associations, recognizing our contributions to innovation,  <br />
-                                        leadership, and best practices in our field.
-                                    </Typography>
-                                    <Typography
-                                        variant='body1'
-                                        align="center"
-                                        sx={{
-                                            mt: 4,
-                                            lineHeight: 1.8
-                                        }}
-                                    >
-                                        We're proud recipients of innovation awards that celebrate our pioneering spirit,  <br />
-                                        groundbreaking technologies, and forward-thinking to solving  challenges.
-                                    </Typography>
-                                </Box>
-                                <Box>
-                                    <Typography variant='subtitle1' align="center" sx={{ fontWeight: 700 }}>
-                                        Highlights
-                                    </Typography>
-                                    <Typography variant='h4' align="center">
-                                        Artists
-                                    </Typography>
-                                    <Typography
-                                        variant='body1'
-                                        align="center"
-                                        sx={{
-                                            mt: 4,
-                                            lineHeight: 1.8
-                                        }}
-                                    >
-                                        We've been honored with prestigious awards from leading industry organizations <br />
-                                        and associations, recognizing our contributions to innovation,  <br />
-                                        leadership, and best practices in our field.
-                                    </Typography>
-                                    <Typography
-                                        variant='body1'
-                                        align="center"
-                                        sx={{
-                                            mt: 4,
-                                            lineHeight: 1.8
-                                        }}
-                                    >
-                                        We're proud recipients of innovation awards that celebrate our pioneering spirit,  <br />
-                                        groundbreaking technologies, and forward-thinking to solving  challenges.
-                                    </Typography>
-                                </Box>
-                                <Box>
-                                    <Typography variant='subtitle1' align="center" sx={{ fontWeight: 700 }}>
-                                        Highlights
-                                    </Typography>
-                                    <Typography variant='h4' align="center">
-                                        Awards
-                                    </Typography>
-                                    <Typography
-                                        variant='body1'
-                                        align="center"
-                                        sx={{
-                                            mt: 4,
-                                            lineHeight: 1.8
-                                        }}
-                                    >
-                                        We've been honored with prestigious awards from leading industry organizations <br />
-                                        and associations, recognizing our contributions to innovation,  <br />
-                                        leadership, and best practices in our field.
-                                    </Typography>
-                                    <Typography
-                                        variant='body1'
-                                        align="center"
-                                        sx={{
-                                            mt: 4,
-                                            lineHeight: 1.8
-                                        }}
-                                    >
-                                        We're proud recipients of innovation awards that celebrate our pioneering spirit,  <br />
-                                        groundbreaking technologies, and forward-thinking to solving  challenges.
-                                    </Typography>
-                                </Box>
-                            </Carousel>
+                                <Carousel
+                                    indicators
+                                >
+                                    <Box>
+                                        <Typography variant='subtitle1' align="center" sx={{ fontWeight: 700 }}>
+                                            Highlights
+                                        </Typography>
+                                        <Typography variant='h4' align="center">
+                                            Categories
+                                        </Typography>
+                                        <Typography
+                                            variant='body1'
+                                            align="center"
+                                            sx={{
+                                                mt: 4,
+                                                lineHeight: 1.8
+                                            }}
+                                        >
+                                            We've been honored with prestigious awards from leading industry organizations <br />
+                                            and associations, recognizing our contributions to innovation,  <br />
+                                            leadership, and best practices in our field.
+                                        </Typography>
+                                        <Typography
+                                            variant='body1'
+                                            align="center"
+                                            sx={{
+                                                mt: 4,
+                                                lineHeight: 1.8
+                                            }}
+                                        >
+                                            We're proud recipients of innovation awards that celebrate our pioneering spirit,  <br />
+                                            groundbreaking technologies, and forward-thinking to solving  challenges.
+                                        </Typography>
+                                    </Box>
+                                    <Box>
+                                        <Typography variant='subtitle1' align="center" sx={{ fontWeight: 700 }}>
+                                            Highlights
+                                        </Typography>
+                                        <Typography variant='h4' align="center">
+                                            Performers
+                                        </Typography>
+                                        <Typography
+                                            variant='body1'
+                                            align="center"
+                                            sx={{
+                                                mt: 4,
+                                                lineHeight: 1.8
+                                            }}
+                                        >
+                                            We've been honored with prestigious awards from leading industry organizations <br />
+                                            and associations, recognizing our contributions to innovation,  <br />
+                                            leadership, and best practices in our field.
+                                        </Typography>
+                                        <Typography
+                                            variant='body1'
+                                            align="center"
+                                            sx={{
+                                                mt: 4,
+                                                lineHeight: 1.8
+                                            }}
+                                        >
+                                            We're proud recipients of innovation awards that celebrate our pioneering spirit,  <br />
+                                            groundbreaking technologies, and forward-thinking to solving  challenges.
+                                        </Typography>
+                                    </Box>
+                                    <Box>
+                                        <Typography variant='subtitle1' align="center" sx={{ fontWeight: 700 }}>
+                                            Highlights
+                                        </Typography>
+                                        <Typography variant='h4' align="center">
+                                            Artists
+                                        </Typography>
+                                        <Typography
+                                            variant='body1'
+                                            align="center"
+                                            sx={{
+                                                mt: 4,
+                                                lineHeight: 1.8
+                                            }}
+                                        >
+                                            We've been honored with prestigious awards from leading industry organizations <br />
+                                            and associations, recognizing our contributions to innovation,  <br />
+                                            leadership, and best practices in our field.
+                                        </Typography>
+                                        <Typography
+                                            variant='body1'
+                                            align="center"
+                                            sx={{
+                                                mt: 4,
+                                                lineHeight: 1.8
+                                            }}
+                                        >
+                                            We're proud recipients of innovation awards that celebrate our pioneering spirit,  <br />
+                                            groundbreaking technologies, and forward-thinking to solving  challenges.
+                                        </Typography>
+                                    </Box>
+                                    <Box>
+                                        <Typography variant='subtitle1' align="center" sx={{ fontWeight: 700 }}>
+                                            Highlights
+                                        </Typography>
+                                        <Typography variant='h4' align="center">
+                                            Awards
+                                        </Typography>
+                                        <Typography
+                                            variant='body1'
+                                            align="center"
+                                            sx={{
+                                                mt: 4,
+                                                lineHeight: 1.8
+                                            }}
+                                        >
+                                            We've been honored with prestigious awards from leading industry organizations <br />
+                                            and associations, recognizing our contributions to innovation,  <br />
+                                            leadership, and best practices in our field.
+                                        </Typography>
+                                        <Typography
+                                            variant='body1'
+                                            align="center"
+                                            sx={{
+                                                mt: 4,
+                                                lineHeight: 1.8
+                                            }}
+                                        >
+                                            We're proud recipients of innovation awards that celebrate our pioneering spirit,  <br />
+                                            groundbreaking technologies, and forward-thinking to solving  challenges.
+                                        </Typography>
+                                    </Box>
+                                </Carousel>
+                            </Box>
                         </Box>
-                    </Box>
+                    </Container>
                 </Grid>
             </Grid>
             <Grid container sx={{ mt: 1 }}>
