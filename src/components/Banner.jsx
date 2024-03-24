@@ -10,7 +10,6 @@ export default function Banner() {
         <BannerLayout
             sxBackground={{
                 backgroundImage: `url(${backgroundImage})`,
-                backgroundColor: 'primary.main',
                 backgroundPosition: 'center',
             }}
         >
@@ -42,6 +41,7 @@ export default function Banner() {
                         transform: "scale3d(1.05, 1.15, 1)",
                         bgcolor: "green"
                     },
+                    background: "radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%)",
                 }}
             >
                 Login
