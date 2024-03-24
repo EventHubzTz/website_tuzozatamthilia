@@ -3,7 +3,7 @@ import { Box, Button, Divider, Drawer, IconButton, List, ListItem, ListItemButto
 import { Link, useNavigate } from 'react-router-dom';
 import { MenuOutlined } from '@mui/icons-material';
 
-const drawerWidth = 240;
+const drawerWidth = 260;
 const navItems = [
     { label: 'Login', route: '/' },
 ];
