@@ -991,7 +991,7 @@ function Home() {
                     </Typography>
                 </Container>
             </Box>
-            <Grid container alignItems="center" justifyContent="center" sx={{ mt: 0 }}>
+            {/* <Grid container alignItems="center" justifyContent="center" sx={{ mt: 0, backgroundColor: 'common.black', }}>
                 <Grid item xs={3} sm={3} md={3} lg={2} xl={2}>
                     <Box
                         component='img'
@@ -1048,7 +1048,7 @@ function Home() {
                         src="assets/images/toyota.png"
                     />
                 </Grid>
-            </Grid>
+            </Grid> */}
 
             <Footer />
         </>
