@@ -1,6 +1,6 @@
 export const createTypography = () => {
   return {
-    fontFamily: '"Shippori Mincho", serif',
+    fontFamily: '"Futura", serif',
     body1: {
       fontSize: '1rem',
       fontWeight: 400,
