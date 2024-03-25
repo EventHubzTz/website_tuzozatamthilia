@@ -11,7 +11,7 @@ function Home() {
         <>
             <Header />
             <Banner />
-            <Box
+            {/* <Box
                 component="section"
                 sx={{
                     display: 'flex',
@@ -990,7 +990,7 @@ function Home() {
                         comprehensive solutions, implementation services, and support.
                     </Typography>
                 </Container>
-            </Box>
+            </Box> */}
             {/* <Grid container alignItems="center" justifyContent="center" sx={{ mt: 0, backgroundColor: 'common.black', }}>
                 <Grid item xs={3} sm={3} md={3} lg={2} xl={2}>
                     <Box
