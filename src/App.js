@@ -4,7 +4,7 @@ import { CacheProvider } from "@emotion/react";
 import { CssBaseline } from "@mui/material";
 import { RouterProvider } from "react-router-dom";
 import { router } from "./router";
-import VideoLionLoader from "./components/VideoLionLoader";
+import ImageLionLoader from "./components/ImageLionLoader";
 import { ThemeProvider } from '@mui/material/styles';
 import { lightTheme } from "./theme";
 
@@ -25,7 +25,7 @@ function App() {
       <ThemeProvider theme={theme}>
         <CssBaseline />
         {loading ?
-          <VideoLionLoader /> :
+          <ImageLionLoader /> :
           <RouterProvider router={router} />
         }
       </ThemeProvider>

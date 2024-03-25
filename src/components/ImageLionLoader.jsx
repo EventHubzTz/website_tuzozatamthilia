@@ -1,7 +1,5 @@
 import React from 'react'
 import { Box } from '@mui/material'
-import Lottie from 'lottie-react'
-import loaderAnimation from "../animations/loader.json"
 
 function ImageLionLoader() {
 
@@ -9,12 +7,22 @@ function ImageLionLoader() {
         <Box
             sx={{
                 width: "100vw",
+                height: "100vh",
+                backgroundColor: 'common.black',
             }}
+            display="flex"
+            alignItems="center"
+            justifyContent="center"
         >
-            <Lottie
-                animationData={loaderAnimation}
-                loop={true}
-                size={5}
+            <Box
+                component='img'
+                sx={{
+                    width: "50%",
+                    height: "50vh",
+                    objectFit: "cover"
+                }}
+                alt="Lion"
+                src="assets/gif/lion.gif"
             />
         </Box>
     )
