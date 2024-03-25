@@ -21,7 +21,7 @@ function Header(props) {
         <Box onClick={handleDrawerToggle}
             sx={{
                 textAlign: 'center',
-                background: "#9E7003",
+                backgroundColor: 'common.white',
                 height: "100%"
             }}>
             <Link to="/">
@@ -33,13 +33,13 @@ function Header(props) {
                 >
                     <Typography
                         variant="h6"
-                        sx={{ my: 2, ml: 1, color: "white" }}
+                        sx={{ my: 2, ml: 1, color: "black" }}
                     >
                         Tanzania Music Awards
                     </Typography>
                 </Box>
             </Link>
-            <Divider />
+            <Divider sx={{ borderWidth: "0.05px", borderColor: "black" }} />
             <List disablePadding>
                 {navItems.map((item, index) => (
                     <ListItem
@@ -48,7 +48,7 @@ function Header(props) {
                         onClick={() => navigate(item.route)}
                     >
                         <ListItemButton>
-                            <ListItemText primary={item.label} sx={{ color: "white" }} />
+                            <ListItemText primary={item.label} sx={{ color: "black" }} />
                         </ListItemButton>
                     </ListItem>
                 ))}
