@@ -38,11 +38,14 @@ export default function Banner() {
                     sx={{
                         minWidth: 200,
                         transition: 'all 0.5s',
+                        color: "black",
+                        borderRadius: 0,
                         '&:hover': {
                             transform: "scale3d(1.05, 1.15, 1)",
-                            bgcolor: "green"
+                            bgcolor: "green",
+                            color: "white",
                         },
-                        background: "radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FDB931 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%)",
+                        background: "white",
                     }}
                 >
                     Pre Register Now

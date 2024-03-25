@@ -28,14 +28,14 @@ function Header(props) {
                 <Box
                     sx={{
                         display: "flex",
-                        alignItems: "center"
+                        alignItems: "center",
                     }}
                 >
                     <Typography
                         variant="h6"
                         sx={{ my: 2, ml: 1, color: "black" }}
                     >
-                        Tanzania Music Awards
+                        TMA 2023
                     </Typography>
                 </Box>
             </Link>

@@ -48,7 +48,9 @@ function Footer() {
                         <IconButton aria-label="twitter">
                             <TwitterIcon sx={{ color: "white" }} />
                         </IconButton>
-                        <IconButton aria-label="instagram">
+                        <IconButton
+                            aria-label="instagram"
+                        >
                             <InstagramIcon sx={{ color: "white" }} />
                         </IconButton>
                     </Stack>
