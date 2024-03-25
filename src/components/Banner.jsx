@@ -3,7 +3,7 @@ import BannerLayout from './BannerLayout';
 import { Box, Button, Typography } from '@mui/material';
 
 const backgroundImage =
-    'assets/images/tma_lion.png';
+    'assets/images/tma_logo2.png';
 
 export default function Banner() {
     return (
