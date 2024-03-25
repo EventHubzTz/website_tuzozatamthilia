@@ -3,7 +3,7 @@ import BannerLayout from './BannerLayout';
 import { Box, Button, Typography } from '@mui/material';
 
 const backgroundImage =
-    'assets/images/tma_logo2.png';
+    'assets/images/tma_lion.png';
 
 export default function Banner() {
     return (
@@ -45,7 +45,7 @@ export default function Banner() {
                         background: "radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FDB931 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%)",
                     }}
                 >
-                    Login
+                    Pre Register Now
                 </Button>
             </Box>
         </BannerLayout>

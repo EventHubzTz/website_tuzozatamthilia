@@ -5,7 +5,7 @@ import { MenuOutlined } from '@mui/icons-material';
 
 const drawerWidth = 260;
 const navItems = [
-    { label: 'Login', route: '/' },
+    { label: 'Pre Register Now', route: '/' },
 ];
 
 function Header(props) {
