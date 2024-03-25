@@ -1,0 +1,1 @@
+export const votingUrl = "https://secured.tanzaniamusicawards.com/register";

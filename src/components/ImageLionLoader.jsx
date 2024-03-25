@@ -8,7 +8,7 @@ function ImageLionLoader() {
             sx={{
                 width: "100vw",
                 height: "100vh",
-                backgroundColor: 'common.black',
+                background: 'black',
             }}
             display="flex"
             alignItems="center"
@@ -17,8 +17,8 @@ function ImageLionLoader() {
             <Box
                 component='img'
                 sx={{
-                    width: "50%",
-                    height: "50vh",
+                    width: { xs: "90%", sm: "90%", md: "50vh" },
+                    height: { xs: "70vh", sm: "70vh", md: "50vh" },
                     objectFit: "cover"
                 }}
                 alt="Lion"

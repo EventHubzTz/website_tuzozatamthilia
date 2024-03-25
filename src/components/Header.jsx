@@ -2,6 +2,7 @@ import React from 'react'
 import { Box, Button, Divider, Drawer, IconButton, List, ListItem, ListItemButton, ListItemText, SvgIcon, Toolbar, Typography } from '@mui/material'
 import { Link } from 'react-router-dom';
 import { MenuOutlined } from '@mui/icons-material';
+import { votingUrl } from '../utils/constants';
 
 const drawerWidth = 260;
 const navItems = [
@@ -34,7 +35,7 @@ function Header(props) {
                         variant="h6"
                         sx={{ my: 2, ml: 1, color: "black" }}
                     >
-                        TMA 2023
+                        TMA 2024
                     </Typography>
                 </Box>
             </Link>
@@ -45,7 +46,8 @@ function Header(props) {
                         key={index}
                         disablePadding
                         component="a"
-                        href="https://www.secured.tanzaniamusicawards.com"
+                        href={votingUrl}
+                        target='_blank'
                     >
                         <ListItemButton>
                             <ListItemText primary={item.label} sx={{ color: "black" }} />

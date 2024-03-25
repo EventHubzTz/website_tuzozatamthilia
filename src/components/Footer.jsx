@@ -1,8 +1,5 @@
 import React from 'react'
-import { Box, Container, IconButton, Stack, Typography } from '@mui/material'
-import FacebookIcon from '@mui/icons-material/Facebook';
-import TwitterIcon from '@mui/icons-material/Twitter';
-import InstagramIcon from '@mui/icons-material/Instagram';
+import { Box, Container, Stack, Typography } from '@mui/material'
 
 function Footer() {
     const currentYear = new Date().getFullYear();
@@ -34,25 +31,26 @@ function Footer() {
                             flexWrap: "wrap"
                         }}
                     >
-                        <Typography variant="h6" component="span" color="white" sx={{ mr: 1 }}>
+                        <Typography variant="h6" component="span" color="white" sx={{ mr: 0.5 }}>
                             TMA
                         </Typography>
-                        <Typography variant="subtitle2" component="span" color="white">
+                        <Typography variant="body2" component="span" color="white">
                             Copyright &copy; {currentYear}
                         </Typography>
                     </Box>
-                    <Stack direction="row" spacing={1} sx={{ ml: "auto" }}>
-                        <IconButton aria-label="facebook">
-                            <FacebookIcon sx={{ color: "white" }} />
-                        </IconButton>
-                        <IconButton aria-label="twitter">
-                            <TwitterIcon sx={{ color: "white" }} />
-                        </IconButton>
-                        <IconButton
-                            aria-label="instagram"
-                        >
-                            <InstagramIcon sx={{ color: "white" }} />
-                        </IconButton>
+                    <Stack direction="row" alignItems="center" spacing={1} sx={{ ml: "auto", bgcolor: "white", px: 2, py: 0.5 }}>
+                        <a href="https://www.youtube.com/channel/tma_tz" target="_blank" rel='noreferrer'>
+                            <img width={25} src="/assets/svg/youtube.svg" alt="Youtube" />
+                        </a>
+                        <a href="https://twitter.com/tma_tz" target="_blank" rel='noreferrer'>
+                            <img width={25} src="/assets/svg/x-twitter.svg" alt="Twitter" />
+                        </a>
+                        <a href="https://www.tiktok.com/@tma_tz" target="_blank" rel='noreferrer'>
+                            <img width={25} src="/assets/svg/tiktok.svg" alt="Tiktok" />
+                        </a>
+                        <a href="https://www.snapchat.com/add/tma_tz" target="_blank" rel='noreferrer'>
+                            <img width={25} src="/assets/svg/snapchat.svg" alt="Snapchat" />
+                        </a>
                     </Stack>
                 </Box>
             </Container>
