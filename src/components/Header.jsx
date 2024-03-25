@@ -1,6 +1,6 @@
 import React from 'react'
 import { Box, Button, Divider, Drawer, IconButton, List, ListItem, ListItemButton, ListItemText, SvgIcon, Toolbar, Typography } from '@mui/material'
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { MenuOutlined } from '@mui/icons-material';
 
 const drawerWidth = 260;
@@ -10,7 +10,6 @@ const navItems = [
 
 function Header(props) {
     const { window } = props;
-    const navigate = useNavigate();
     const [mobileOpen, setMobileOpen] = React.useState(false);
 
     const handleDrawerToggle = () => {
@@ -45,7 +44,8 @@ function Header(props) {
                     <ListItem
                         key={index}
                         disablePadding
-                        onClick={() => navigate(item.route)}
+                        component="a"
+                        href="https://www.secured.tanzaniamusicawards.com"
                     >
                         <ListItemButton>
                             <ListItemText primary={item.label} sx={{ color: "black" }} />
@@ -107,7 +107,8 @@ function Header(props) {
                             <Button
                                 key={index}
                                 sx={{ color: 'white' }}
-                                onClick={() => navigate(item.route)}
+                                component="a"
+                                href="https://www.secured.tanzaniamusicawards.com"
                             >
                                 {item.label}
                             </Button>

@@ -34,7 +34,7 @@ export default function Banner() {
                     variant="contained"
                     size="large"
                     component="a"
-                    href="/"
+                    href="https://www.secured.tanzaniamusicawards.com"
                     sx={{
                         minWidth: 200,
                         transition: 'all 0.5s',
