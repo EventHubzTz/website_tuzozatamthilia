@@ -25,19 +25,13 @@ function Header(props) {
                 height: "100%"
             }}>
             <Link to="/">
-                <Box
-                    sx={{
-                        display: "flex",
-                        alignItems: "center",
-                    }}
+                <Typography
+                    align='center'
+                    variant="h6"
+                    sx={{ my: 2, color: "black" }}
                 >
-                    <Typography
-                        variant="h6"
-                        sx={{ my: 2, ml: 1, color: "black" }}
-                    >
-                        TMA 2024
-                    </Typography>
-                </Box>
+                    TMA 2024
+                </Typography>
             </Link>
             <Divider sx={{ borderWidth: "0.05px", borderColor: "black" }} />
             <List disablePadding>
@@ -50,7 +44,7 @@ function Header(props) {
                         target='_blank'
                     >
                         <ListItemButton>
-                            <ListItemText primary={item.label} sx={{ color: "black" }} />
+                            <ListItemText primary={item.label} sx={{ color: "black", textAlign: "center" }} />
                         </ListItemButton>
                     </ListItem>
                 ))}
