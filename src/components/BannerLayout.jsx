@@ -36,7 +36,6 @@ function BannerLayout(props) {
             <Box
                 sx={{
                     mt: 3,
-                    mb: 14,
                     display: 'flex',
                     flexDirection: 'column',
                     alignItems: 'start',
