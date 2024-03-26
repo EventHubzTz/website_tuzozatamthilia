@@ -56,17 +56,23 @@ function BannerLayout(props) {
                     }}
                 />
                 <Background>
-                    <iframe
+                    {/* <iframe
                         style={{ width: "100vw", height: "100vh" }}
                         src="https://www.youtube.com/embed/Ua1ce5rBm3c?si=9JTidnHsYLUXPXrz?rel=0&amp;amp;showinfo=0&amp;controls=0&amp;autoplay=1&amp;mute=1&amp;loop=1&amp;playlist=Ua1ce5rBm3c"
                         title="YouTube video player"
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin"
                         allowfullscreen
-                        scrolling="no" 
+                        scrolling="no"
                         border="0"
                     >
+                    </iframe> */}
+                    <iframe
+                        data-embed="https://youtu.be/Ua1ce5rBm3c"
+                        scrolling="no"
+                        border="0"
+                        style={{ opacity: 0.8, width: "100vw", height: "100vh" }}
+                        src="https://www.youtube.com/embed/Ua1ce5rBm3c?rel=0&amp;amp;showinfo=0&amp;controls=0&amp;autoplay=1&amp;mute=1&amp;loop=1&amp;playlist=Ua1ce5rBm3c">
                     </iframe>
                 </Background>
             </Box>
