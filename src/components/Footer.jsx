@@ -38,21 +38,21 @@ function Footer() {
                             Copyright &copy; {currentYear}
                         </Typography>
                     </Box>
-                    <Stack direction="row" alignItems="center" spacing={1} sx={{ ml: "auto", bgcolor: "white", px: 2, py: 0.5 }}>
-                        <a href="https://www.instagram.com/tanzaniamusicawards_" target="_blank" rel='noreferrer'>
-                            <img width={25} src="/assets/svg/instagram.svg" alt="Youtube" />
+                    <Stack direction="row" alignItems="center" spacing={2} sx={{ ml: "auto" }}>
+                        <a href="/" target="_blank" rel='noreferrer'>
+                            <i className="fa-brands fa-instagram" style={{ color: "white", fontSize: "25px" }} />
                         </a>
-                        <a href="https://www.youtube.com/channel/tma_tz" target="_blank" rel='noreferrer'>
-                            <img width={25} src="/assets/svg/youtube.svg" alt="Youtube" />
+                        <a href="/" target="_blank" rel='noreferrer'>
+                            <i className="fa-brands fa-youtube" style={{ color: "white", fontSize: "25px" }} />
                         </a>
-                        <a href="https://twitter.com/tma_tz" target="_blank" rel='noreferrer'>
-                            <img width={25} src="/assets/svg/x-twitter.svg" alt="Twitter" />
+                        <a href="/" target="_blank" rel='noreferrer'>
+                            <i className="fa-brands fa-x-twitter" style={{ color: "white", fontSize: "25px" }} />
                         </a>
-                        <a href="https://www.tiktok.com/@tma_tz" target="_blank" rel='noreferrer'>
-                            <img width={25} src="/assets/svg/tiktok.svg" alt="Tiktok" />
+                        <a href="/" target="_blank" rel='noreferrer'>
+                            <i className="fa-brands fa-tiktok" style={{ color: "white", fontSize: "25px" }} />
                         </a>
-                        <a href="https://www.snapchat.com/add/tma_tz" target="_blank" rel='noreferrer'>
-                            <img width={25} src="/assets/svg/snapchat.svg" alt="Snapchat" />
+                        <a href="/" target="_blank" rel='noreferrer'>
+                            <i className="fa-brands fa-snapchat" style={{ color: "white", fontSize: "25px" }} />
                         </a>
                     </Stack>
                 </Box>
