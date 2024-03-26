@@ -24,8 +24,6 @@ const Background = styled('div')({
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
     zIndex: -2,
-    width: "100vw",
-    height: "100vh"
 });
 
 function BannerLayout(props) {
@@ -36,6 +34,7 @@ function BannerLayout(props) {
             <Box
                 sx={{
                     mt: 3,
+                    mb: 14,
                     display: 'flex',
                     flexDirection: 'column',
                     alignItems: 'start',
@@ -54,26 +53,7 @@ function BannerLayout(props) {
                         zIndex: -1,
                     }}
                 />
-                <Background>
-                    {/* <iframe
-                        style={{ width: "100vw", height: "100vh" }}
-                        src="https://www.youtube.com/embed/Ua1ce5rBm3c?si=9JTidnHsYLUXPXrz?rel=0&amp;amp;showinfo=0&amp;controls=0&amp;autoplay=1&amp;mute=1&amp;loop=1&amp;playlist=Ua1ce5rBm3c"
-                        title="YouTube video player"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen
-                        scrolling="no"
-                        border="0"
-                    >
-                    </iframe> */}
-                    <iframe
-                        data-embed="https://youtu.be/Ua1ce5rBm3c"
-                        scrolling="no"
-                        border="0"
-                        style={{ opacity: 0.8, width: "100vw", height: "100vh" }}
-                        src="https://www.youtube.com/embed/Ua1ce5rBm3c?rel=0&amp;amp;showinfo=0&amp;controls=0&amp;autoplay=1&amp;mute=1&amp;loop=1&amp;playlist=Ua1ce5rBm3c">
-                    </iframe>
-                </Background>
+                <Background sx={sxBackground} />
             </Box>
         </BannerLayoutRoot>
     );

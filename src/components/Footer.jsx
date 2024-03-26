@@ -38,21 +38,21 @@ function Footer() {
                             Copyright &copy; {currentYear}
                         </Typography>
                     </Box>
-                    <Stack direction="row" alignItems="center" spacing={2} sx={{ ml: "auto" }}>
-                        <a href="/" target="_blank" rel='noreferrer'>
-                            <i className="fa-brands fa-instagram" style={{ color: "white", fontSize: "25px" }} />
+                    <Stack direction="row" alignItems="center" spacing={{ xs: 1, sm: 1, md: 2 }} sx={{ ml: "auto" }}>
+                        <a href="#">
+                            <i className="fa-brands fa-instagram logo" />
                         </a>
-                        <a href="/" target="_blank" rel='noreferrer'>
-                            <i className="fa-brands fa-youtube" style={{ color: "white", fontSize: "25px" }} />
+                        <a href="#">
+                            <i className="fa-brands fa-youtube logo" />
                         </a>
-                        <a href="/" target="_blank" rel='noreferrer'>
-                            <i className="fa-brands fa-x-twitter" style={{ color: "white", fontSize: "25px" }} />
+                        <a href="#">
+                            <i className="fa-brands fa-x-twitter logo" />
                         </a>
-                        <a href="/" target="_blank" rel='noreferrer'>
-                            <i className="fa-brands fa-tiktok" style={{ color: "white", fontSize: "25px" }} />
+                        <a href="#">
+                            <i className="fa-brands fa-tiktok logo" />
                         </a>
-                        <a href="/" target="_blank" rel='noreferrer'>
-                            <i className="fa-brands fa-snapchat" style={{ color: "white", fontSize: "25px" }} />
+                        <a href="#">
+                            <i className="fa-brands fa-snapchat logo" />
                         </a>
                     </Stack>
                 </Box>
