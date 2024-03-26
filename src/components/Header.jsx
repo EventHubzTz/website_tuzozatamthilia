@@ -41,7 +41,6 @@ function Header(props) {
                         disablePadding
                         component="a"
                         href={votingUrl}
-                        target='_blank'
                     >
                         <ListItemButton>
                             <ListItemText primary={item.label} sx={{ color: "black", textAlign: "center" }} />
@@ -104,7 +103,7 @@ function Header(props) {
                                 key={index}
                                 sx={{ color: 'white' }}
                                 component="a"
-                                href="https://www.secured.tanzaniamusicawards.com"
+                                href={votingUrl}
                             >
                                 {item.label}
                             </Button>

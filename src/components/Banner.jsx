@@ -40,7 +40,6 @@ export default function Banner() {
                     size="large"
                     component="a"
                     href={votingUrl}
-                    target='_blank'
                     sx={{
                         minWidth: 200,
                         transition: 'all 0.5s',
