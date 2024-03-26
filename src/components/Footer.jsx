@@ -38,7 +38,7 @@ function Footer() {
                             Copyright &copy; {currentYear}
                         </Typography>
                     </Box>
-                    <Stack direction="row" alignItems="center" spacing={{ xs: 1, sm: 1, md: 2 }} sx={{ ml: "auto" }}>
+                    {/* <Stack direction="row" alignItems="center" spacing={{ xs: 1, sm: 1, md: 2 }} sx={{ ml: "auto" }}>
                         <a href="#">
                             <i className="fa-brands fa-instagram logo" />
                         </a>
@@ -54,7 +54,7 @@ function Footer() {
                         <a href="#">
                             <i className="fa-brands fa-snapchat logo" />
                         </a>
-                    </Stack>
+                    </Stack> */}
                 </Box>
             </Container>
         </Box>
