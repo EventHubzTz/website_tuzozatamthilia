@@ -8,7 +8,7 @@ function Footer() {
         <Box
             sx={{
                 // background: "radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),radial-gradient(ellipse farthest-corner at left top, #FEDB37 0%, #FDB931 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%)",
-                backgroundColor: 'common.black',
+                backgroundColor: 'transparent',
             }}
         >
             <Container>
@@ -33,7 +33,7 @@ function Footer() {
                             Copyright &copy; {currentYear}
                         </Typography>
                     </Box>
-                    {/* <Stack direction="row" alignItems="center" spacing={{ xs: 1, sm: 1, md: 2 }} sx={{ ml: "auto" }}>
+                    <Stack direction="row" alignItems="center" spacing={{ xs: 1, sm: 1, md: 2 }} sx={{ ml: "auto" }}>
                         <a href="#">
                             <i className="fa-brands fa-instagram logo" />
                         </a>
@@ -49,7 +49,7 @@ function Footer() {
                         <a href="#">
                             <i className="fa-brands fa-snapchat logo" />
                         </a>
-                    </Stack> */}
+                    </Stack>
                 </Box>
             </Container>
         </Box>

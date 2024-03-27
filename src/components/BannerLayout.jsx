@@ -9,9 +9,9 @@ const BannerLayoutRoot = styled('section')(({ theme }) => ({
     display: 'flex',
     alignItems: 'end',
     [theme.breakpoints.up('sm')]: {
-        height: '80vh',
+        height: '100vh',
         minHeight: 500,
-        maxHeight: 1300,
+        maxHeight: 1500,
     },
 }));
 
