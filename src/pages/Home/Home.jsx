@@ -9,7 +9,7 @@ import Sponsors from '../../components/Sponsors'
 function Home() {
 
     return (
-        <Box sx={{ position: "absolute" }}>
+        <Box sx={{  }}>
             <Header />
             <Banner />
             {/* <Box
