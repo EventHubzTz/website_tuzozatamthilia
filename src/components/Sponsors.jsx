@@ -2,19 +2,49 @@ import React from 'react'
 import { Box, Grid } from '@mui/material'
 
 export const lightSponsorsLogo = [
-    "assets/images/MTV GOL001.png",
-    "assets/images/BET GOLD001.png",
-    "assets/images/DELOITTE TOUCHE GOLD001.png",
-    "assets/images/BASATA GOLD001.png",
-    "assets/images/TANZANIA GOLD001.png"
+    {
+        image: "assets/images/MTV GOL001.png",
+        url: "https://www.mtv.com"
+    },
+    {
+        image: "assets/images/BET GOLD001.png",
+        url: "https://www.bet.com"
+    },
+    {
+        image: "assets/images/DELOITTE TOUCHE GOLD001.png",
+        url: "https://www.deloitte.com/tz/en/offices/tanzania-offices/dar-es-salaam.html"
+    },
+    {
+        image: "assets/images/BASATA GOLD001.png",
+        url: "https://www.basata.go.tz"
+    },
+    {
+        image: "assets/images/TANZANIA GOLD001.png",
+        url: "https://www.michezo.go.tz"
+    }
 ];
 
 export const darkSponsorsLogo = [
-    "assets/images/MTV GOL004.png",
-    "assets/images/BET GOLD004.png",
-    "assets/images/DELOITTE TOUCHE GOLD004.png",
-    "assets/images/BASATA GOLD004.png",
-    "assets/images/TANZANIA GOLD004.png"
+    {
+        image: "assets/images/MTV GOL004.png",
+        url: "https://www.mtv.com"
+    },
+    {
+        image: "assets/images/BET GOLD004.png",
+        url: "https://www.bet.com"
+    },
+    {
+        image: "assets/images/DELOITTE TOUCHE GOLD004.png",
+        url: "https://www.deloitte.com/tz/en/offices/tanzania-offices/dar-es-salaam.html"
+    },
+    {
+        image: "assets/images/BASATA GOLD004.png",
+        url: "https://www.basata.go.tz"
+    },
+    {
+        image: "assets/images/TANZANIA GOLD004.png",
+        url: "https://www.michezo.go.tz"
+    }
 ];
 
 function Sponsors() {
@@ -34,29 +64,31 @@ function Sponsors() {
             {sponsors.map((item, index) => {
                 return (
                     <Grid item key={index} xs={1.5} sm={0.8} md={0.8} lg={0.5} xl={0.5}>
-                        <Box
-                            component='img'
-                            sx={{
-                                width: "100%",
-                                transition: 'all 0.5s',
-                                cursor: "pointer",
-                                '&:hover': {
-                                    transform: "scale3d(1.15, 1.15, 1)"
-                                },
-                            }}
-                            alt="Guitars"
-                            src={item}
-                            onMouseEnter={() => {
-                                const newsponsors = [...sponsors];
-                                newsponsors[index] = darkSponsorsLogo[index];
-                                setSponsors(newsponsors);
-                            }}
-                            onMouseLeave={() => {
-                                const newsponsors = [...sponsors];
-                                newsponsors[index] = lightSponsorsLogo[index];
-                                setSponsors(newsponsors);
-                            }}
-                        />
+                        <a href={item.url} target='_blank' rel='noreferrer'>
+                            <Box
+                                component='img'
+                                sx={{
+                                    width: "100%",
+                                    transition: 'all 0.5s',
+                                    cursor: "pointer",
+                                    '&:hover': {
+                                        transform: "scale3d(1.15, 1.15, 1)"
+                                    },
+                                }}
+                                alt="Guitars"
+                                src={item.image}
+                                onMouseEnter={() => {
+                                    const newsponsors = [...sponsors];
+                                    newsponsors[index].image = darkSponsorsLogo[index].image;
+                                    setSponsors(newsponsors);
+                                }}
+                                onMouseLeave={() => {
+                                    const newsponsors = [...sponsors];
+                                    newsponsors[index].image = lightSponsorsLogo[index].image;
+                                    setSponsors(newsponsors);
+                                }}
+                            />
+                        </a>
                     </Grid>
                 )
             })}
