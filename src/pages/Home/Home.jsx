@@ -4,6 +4,7 @@ import { Box, Container, Divider, Grid, Typography } from '@mui/material'
 import Carousel from 'react-material-ui-carousel'
 import Footer from '../../components/Footer'
 import Banner from '../../components/Banner'
+import Sponsors from '../../components/Sponsors'
 
 function Home() {
 
@@ -991,64 +992,7 @@ function Home() {
                     </Typography>
                 </Container>
             </Box> */}
-            {/* <Grid container alignItems="center" justifyContent="center" sx={{ mt: 0, backgroundColor: 'common.black', }}>
-                <Grid item xs={3} sm={3} md={3} lg={2} xl={2}>
-                    <Box
-                        component='img'
-                        sx={{
-                            width: "100%",
-                            transition: 'all 0.5s',
-                            '&:hover': {
-                                transform: "scale3d(1.15, 1.15, 1)"
-                            },
-                        }}
-                        alt="Guitars"
-                        src="assets/images/coca-cola.png"
-                    />
-                </Grid>
-                <Grid item xs={3} sm={3} md={3} lg={2} xl={2}>
-                    <Box
-                        component='img'
-                        sx={{
-                            width: "100%",
-                            transition: 'all 0.5s',
-                            '&:hover': {
-                                transform: "scale3d(1.15, 1.15, 1)"
-                            },
-                        }}
-                        alt="Guitars"
-                        src="assets/images/crdb.png"
-                    />
-                </Grid>
-                <Grid item xs={3} sm={3} md={3} lg={2} xl={2}>
-                    <Box
-                        component='img'
-                        sx={{
-                            width: "100%",
-                            transition: 'all 0.5s',
-                            '&:hover': {
-                                transform: "scale3d(1.15, 1.15, 1)"
-                            },
-                        }}
-                        alt="Guitars"
-                        src="assets/images/vodacom.png"
-                    />
-                </Grid>
-                <Grid item xs={3} sm={3} md={3} lg={2} xl={2}>
-                    <Box
-                        component='img'
-                        sx={{
-                            width: "100%",
-                            transition: 'all 0.5s',
-                            '&:hover': {
-                                transform: "scale3d(1.15, 1.15, 1)"
-                            },
-                        }}
-                        alt="Guitars"
-                        src="assets/images/toyota.png"
-                    />
-                </Grid>
-            </Grid> */}
+            <Sponsors />
 
             <Footer />
         </>
