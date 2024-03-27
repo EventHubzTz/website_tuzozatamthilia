@@ -21,7 +21,7 @@ function Sponsors() {
     const [sponsors, setSponsors] = React.useState(lightSponsorsLogo);
 
     return (
-        <Grid container spacing={{ xs: 1.5, sm: 1.5, md: 3 }} alignItems="center" justifyContent="center" sx={{ backgroundColor: 'common.black' }}>
+        <Grid container spacing={{ xs: 1.5, sm: 1.5, md: 3 }} alignItems="center" justifyContent="center" sx={{ backgroundColor: 'common.black',opacity: 0.8 }}>
             {sponsors.map((item, index) => {
                 return (
                     <Grid item key={index} xs={1.5} sm={1.5} md={1.5} lg={0.5} xl={0.5}>
