@@ -73,6 +73,7 @@ function Sponsors() {
       sx={{
         backgroundColor: "common.black",
         opacity: { xs: 1, sm: 0, md: 0.8 },
+        position:"absolute"
       }}
     >
       {sponsors.map((item, index) => {
