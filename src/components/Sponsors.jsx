@@ -73,7 +73,6 @@ function Sponsors() {
       sx={{
         backgroundColor: "common.black",
         opacity: { xs: 1, sm: 0, md: 0.8 },
-        position:"absolute"
       }}
     >
       {sponsors.map((item, index) => {
@@ -86,9 +85,9 @@ function Sponsors() {
                   width: "100%",
                   transition: "all 0.5s",
                   cursor: "pointer",
-                //   "&:hover": {
-                //     transform: "scale3d(1.15, 1.15, 1)",
-                //   },
+                  "&:hover": {
+                    transform: "scale3d(1.15, 1.15, 1)",
+                  },
                 }}
                 alt="Guitars"
                 src={item.image}
