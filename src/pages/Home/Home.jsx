@@ -9,7 +9,7 @@ import Sponsors from '../../components/Sponsors'
 function Home() {
 
     return (
-        <Box sx={{  }}>
+        <>
             <Header />
             <Banner />
             {/* <Box
@@ -995,7 +995,7 @@ function Home() {
             <Sponsors />
 
             <Footer />
-        </Box>
+        </>
     )
 }
 
