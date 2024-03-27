@@ -86,9 +86,9 @@ function Sponsors() {
                   width: "100%",
                   transition: "all 0.5s",
                   cursor: "pointer",
-                  "&:hover": {
-                    transform: "scale3d(1.15, 1.15, 1)",
-                  },
+                //   "&:hover": {
+                //     transform: "scale3d(1.15, 1.15, 1)",
+                //   },
                 }}
                 alt="Guitars"
                 src={item.image}
