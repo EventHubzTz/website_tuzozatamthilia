@@ -64,7 +64,11 @@ function Sponsors() {
             {sponsors.map((item, index) => {
                 return (
                     <Grid item key={index} xs={1.5} sm={0.8} md={0.8} lg={0.5} xl={0.5}>
-                        <a href={item.url} target='_blank' rel='noreferrer'>
+                        <a
+                            href={item.url}
+                            target='_blank'
+                            rel='noreferrer'
+                        >
                             <Box
                                 component='img'
                                 sx={{
