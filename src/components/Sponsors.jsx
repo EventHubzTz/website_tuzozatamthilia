@@ -21,10 +21,18 @@ function Sponsors() {
     const [sponsors, setSponsors] = React.useState(lightSponsorsLogo);
 
     return (
-        <Grid container spacing={{ xs: 1.5, sm: 1.5, md: 3 }} alignItems="center" justifyContent="center" sx={{ backgroundColor: 'common.black',opacity: 0.8 }}>
+        <Grid
+            container
+            spacing={{ xs: 1.5, sm: 1.5, md: 3 }}
+            alignItems="center"
+            justifyContent="center"
+            sx={{
+                backgroundColor: 'common.black',
+            }}
+        >
             {sponsors.map((item, index) => {
                 return (
-                    <Grid item key={index} xs={1.5} sm={1.5} md={1.5} lg={0.5} xl={0.5}>
+                    <Grid item key={index} xs={1.5} sm={0.8} md={0.8} lg={0.5} xl={0.5}>
                         <Box
                             component='img'
                             sx={{

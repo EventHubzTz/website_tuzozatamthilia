@@ -15,11 +15,11 @@ export default function Banner() {
                 backgroundPosition: 'center',
             }}
         >
-            {/* <img
+            <img
                 style={{ display: 'none' }}
                 src={backgroundImage}
                 alt="increase priority"
-            /> */}
+            />
             <Box sx={{
                 ml: { xs: 0, sm: 0, md: 10 },
                 textAlign: { xs: "center", sm: "center", md: "start" },
