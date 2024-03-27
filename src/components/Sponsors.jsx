@@ -28,6 +28,7 @@ function Sponsors() {
             justifyContent="center"
             sx={{
                 backgroundColor: 'common.black',
+                opacity: { xs: 1, sm: 0, md: 0.8 },
             }}
         >
             {sponsors.map((item, index) => {
