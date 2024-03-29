@@ -94,7 +94,7 @@ function Header(props) {
                             component="div"
                             sx={{ display: { xs: 'none', sm: 'block' }, color: "white" }}
                         >
-                            Tanzania Music Awards
+                            TMA
                         </Typography>
                     </Link>
                     <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
