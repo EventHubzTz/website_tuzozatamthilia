@@ -24,10 +24,7 @@ function App() {
     <CacheProvider value={clientSideEmotionCache}>
       <ThemeProvider theme={theme}>
         <CssBaseline />
-        {loading ?
-          <ImageLionLoader /> :
-          <RouterProvider router={router} />
-        }
+        <RouterProvider router={router} />
       </ThemeProvider>
     </CacheProvider>
   );

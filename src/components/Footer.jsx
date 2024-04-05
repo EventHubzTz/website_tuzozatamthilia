@@ -1,5 +1,6 @@
 import React from 'react'
 import { Box, Container, Stack, Typography } from '@mui/material'
+import { Link } from 'react-router-dom';
 
 function Footer() {
     const currentYear = new Date().getFullYear();
@@ -12,6 +13,93 @@ function Footer() {
             }}
         >
             <Container>
+                <Box
+                    sx={{
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                        flexWrap: "wrap",
+                        mt: 4,
+                        mx: 2
+                    }}
+                >
+                    <Link
+                        to="/privacy-policy"
+                        onClick={() => {
+                            window.scrollTo(0, 0);
+                        }}
+                    >
+                        <Typography
+                            color="white"
+                            sx={{
+                                mr: 3,
+                                '&:hover': {
+                                    color: "primary.main",
+                                },
+                            }}
+                            variant='body2'
+                        >
+                            PRIVACY POLICY
+                        </Typography>
+                    </Link>
+                    <Link
+                        to="/terms-of-use"
+                        onClick={() => {
+                            window.scrollTo(0, 0);
+                        }}
+                    >
+                        <Typography
+                            color="white"
+                            sx={{
+                                mr: 3,
+                                '&:hover': {
+                                    color: "primary.main",
+                                },
+                            }}
+                            variant='body2'
+                        >
+                            TERMS OF USE
+                        </Typography>
+                    </Link>
+                    <Link
+                        to="/terms-and-conditions"
+                        onClick={() => {
+                            window.scrollTo(0, 0);
+                        }}
+                    >
+                        <Typography
+                            color="white"
+                            sx={{
+                                mr: 3,
+                                '&:hover': {
+                                    color: "primary.main",
+                                },
+                            }}
+                            variant='body2'
+                        >
+                            TERMS AND CONDITIONS
+                        </Typography>
+                    </Link>
+                    <Link
+                        to="/copyright-compliance"
+                        onClick={() => {
+                            window.scrollTo(0, 0);
+                        }}
+                    >
+                        <Typography
+                            color="white"
+                            sx={{
+                                mr: 3,
+                                '&:hover': {
+                                    color: "primary.main",
+                                },
+                            }}
+                            variant='body2'
+                        >
+                            COPYRIGHT COMPLIANCE
+                        </Typography>
+                    </Link>
+                </Box>
                 <Box
                     sx={{
                         display: "flex",
@@ -34,19 +122,19 @@ function Footer() {
                         </Typography>
                     </Box>
                     <Stack direction="row" alignItems="center" spacing={{ xs: 1, sm: 1, md: 2 }} sx={{ ml: "auto" }}>
-                        <a href="#">
+                        <a href="https://www.instagram.com/tanzaniamusicawards_" target='_blank' rel='noreferrer'>
                             <i className="fa-brands fa-instagram logo" />
                         </a>
-                        <a href="#">
+                        <a href="https://www.youtube.com/channel/tzmusicawards" target='_blank' rel='noreferrer'>
                             <i className="fa-brands fa-youtube logo" />
                         </a>
-                        <a href="#">
+                        <a href="https://twitter.com/tzmusicawards" target='_blank' rel='noreferrer'>
                             <i className="fa-brands fa-x-twitter logo" />
                         </a>
-                        <a href="#">
+                        <a href="https://www.tiktok.com/@tzmusicawards" target='_blank' rel='noreferrer'>
                             <i className="fa-brands fa-tiktok logo" />
                         </a>
-                        <a href="#">
+                        <a href="https://www.snapchat.com/tzmusicawards" target='_blank' rel='noreferrer'>
                             <i className="fa-brands fa-snapchat logo" />
                         </a>
                     </Stack>

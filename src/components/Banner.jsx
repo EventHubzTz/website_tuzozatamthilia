@@ -4,7 +4,7 @@ import { Box, Button, Typography } from '@mui/material';
 import { votingUrl } from '../utils/constants';
 
 const backgroundImage =
-    'assets/gif/lion.gif';
+    'assets/gif/tma.gif';
 
 export default function Banner() {
     return (
