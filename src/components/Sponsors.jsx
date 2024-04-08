@@ -10,10 +10,10 @@ export const lightSponsorsLogo = [
     image: "assets/images/BET GOLD001.png",
     url: "https://www.bet.com",
   },
-  {
-    image: "assets/images/DELOITTE TOUCHE GOLD001.png",
-    url: "https://www.deloitte.com/tz/en/offices/tanzania-offices/dar-es-salaam.html",
-  },
+  // {
+  //   image: "assets/images/DELOITTE TOUCHE GOLD001.png",
+  //   url: "https://www.deloitte.com/tz/en/offices/tanzania-offices/dar-es-salaam.html",
+  // },
   {
     image: "assets/images/BASATA GOLD001.png",
     url: "https://www.basata.go.tz",
