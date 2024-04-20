@@ -3,23 +3,19 @@ import { Box, Grid } from "@mui/material";
 
 export const lightSponsorsLogo = [
   {
-    image: "assets/images/MTV GOL001.png",
+    image: "assets/images/SPONSOR SQ03.png",
     url: "https://www.mtv.com",
   },
   {
-    image: "assets/images/BET GOLD001.png",
+    image: "assets/images/SPONSOR SQ04.png",
     url: "https://www.bet.com",
   },
-  // {
-  //   image: "assets/images/DELOITTE TOUCHE GOLD001.png",
-  //   url: "https://www.deloitte.com/tz/en/offices/tanzania-offices/dar-es-salaam.html",
-  // },
   {
-    image: "assets/images/BASATA GOLD001.png",
+    image: "assets/images/SPONSOR SQ02.png",
     url: "https://www.basata.go.tz",
   },
   {
-    image: "assets/images/TANZANIA GOLD001.png",
+    image: "assets/images/SPONSOR SQ01.png",
     url: "https://www.michezo.go.tz",
   },
 ];
@@ -34,10 +30,6 @@ export const darkSponsorsLogo = [
     url: "https://www.bet.com",
   },
   {
-    image: "assets/images/DELOITTE TOUCHE GOLD004.png",
-    url: "https://www.deloitte.com/tz/en/offices/tanzania-offices/dar-es-salaam.html",
-  },
-  {
     image: "assets/images/BASATA GOLD004.png",
     url: "https://www.basata.go.tz",
   },
@@ -50,19 +42,19 @@ export const darkSponsorsLogo = [
 function Sponsors() {
   const [sponsors, setSponsors] = React.useState(lightSponsorsLogo);
 
-  const handleMouseEnter = (index) => {
-    const updatedSponsors = sponsors.map((sponsor, i) =>
-      i === index ? { ...sponsor, image: darkSponsorsLogo[i].image } : sponsor
-    );
-    setSponsors(updatedSponsors);
-  };
+  // const handleMouseEnter = (index) => {
+  //   const updatedSponsors = sponsors.map((sponsor, i) =>
+  //     i === index ? { ...sponsor, image: darkSponsorsLogo[i].image } : sponsor
+  //   );
+  //   setSponsors(updatedSponsors);
+  // };
 
-  const handleMouseLeave = (index) => {
-    const updatedSponsors = sponsors.map((sponsor, i) =>
-      i === index ? { ...sponsor, image: lightSponsorsLogo[i].image } : sponsor
-    );
-    setSponsors(updatedSponsors);
-  };
+  // const handleMouseLeave = (index) => {
+  //   const updatedSponsors = sponsors.map((sponsor, i) =>
+  //     i === index ? { ...sponsor, image: lightSponsorsLogo[i].image } : sponsor
+  //   );
+  //   setSponsors(updatedSponsors);
+  // };
 
   return (
     <Grid
@@ -91,8 +83,8 @@ function Sponsors() {
                 }}
                 alt="Guitars"
                 src={item.image}
-                onMouseEnter={() => handleMouseEnter(index)}
-                onMouseLeave={() => handleMouseLeave(index)}
+                // onMouseEnter={() => handleMouseEnter(index)}
+                // onMouseLeave={() => handleMouseLeave(index)}
               />
             </a>
           </Grid>
