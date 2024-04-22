@@ -3,20 +3,20 @@ import { Box, Grid } from "@mui/material";
 
 export const lightSponsorsLogo = [
   {
-    image: "assets/images/SPONSOR SQ03.png",
-    url: "https://www.mtv.com",
-  },
-  {
-    image: "assets/images/SPONSOR SQ04.png",
-    url: "https://www.bet.com",
+    image: "assets/images/SPONSOR SQ01.png",
+    url: "https://www.michezo.go.tz",
   },
   {
     image: "assets/images/SPONSOR SQ02.png",
     url: "https://www.basata.go.tz",
   },
   {
-    image: "assets/images/SPONSOR SQ01.png",
-    url: "https://www.michezo.go.tz",
+    image: "assets/images/SPONSOR SQ03.png",
+    url: "https://www.mtv.com",
+  },
+  {
+    image: "assets/images/SPONSOR SQ04.png",
+    url: "https://www.bet.com",
   },
 ];
 
@@ -83,8 +83,8 @@ function Sponsors() {
                 }}
                 alt="Guitars"
                 src={item.image}
-                // onMouseEnter={() => handleMouseEnter(index)}
-                // onMouseLeave={() => handleMouseLeave(index)}
+              // onMouseEnter={() => handleMouseEnter(index)}
+              // onMouseLeave={() => handleMouseLeave(index)}
               />
             </a>
           </Grid>
