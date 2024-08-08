@@ -6,7 +6,7 @@ import { votingUrl } from '../utils/constants';
 
 const drawerWidth = 260;
 const navItems = [
-    { label: 'Pre Register Now', route: '/' },
+    // { label: 'Register Now', route: '/' },
 ];
 
 function Header(props) {
@@ -30,7 +30,7 @@ function Header(props) {
                     variant="h6"
                     sx={{ my: 2, color: "black" }}
                 >
-                    TMA 2024
+                    Tamthilia 2024
                 </Typography>
             </Link>
             <Divider sx={{ borderWidth: "0.05px", borderColor: "black" }} />
@@ -94,7 +94,7 @@ function Header(props) {
                             component="div"
                             sx={{ display: { xs: 'none', sm: 'block' }, color: "white" }}
                         >
-                            TMA
+                            Tamthilia
                         </Typography>
                     </Link>
                     <Box sx={{ display: { xs: 'none', sm: 'block' } }}>

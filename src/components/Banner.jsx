@@ -1,7 +1,8 @@
 import * as React from 'react';
 import BannerLayout from './BannerLayout';
-import { Box, Button, Typography } from '@mui/material';
-import { votingUrl } from '../utils/constants';
+import { Box, Typography } from '@mui/material';
+// import { Button } from '@mui/icons-material';
+// import { votingUrl } from '../utils/constants';
 
 const backgroundImage =
     'assets/gif/tma.gif';
@@ -26,16 +27,16 @@ export default function Banner() {
                 p: { xs: 8, sm: 5, md: 0 }
             }}>
                 <Typography color="inherit" variant="h2">
-                    Tanzania Music Awards
+                    Tuzo Za Tamthilia | Tanzania
                 </Typography>
                 <Typography
                     color="inherit"
                     variant="body1"
                     sx={{ mb: 4, mt: { xs: 2, sm: 2 } }}
                 >
-                    The Tanzania Music Awards 2024 are HERE!!
+                    Tuzo Za Tamthilia 2024 are HERE!!
                 </Typography>
-                <Button
+                {/* <Button
                     variant="contained"
                     size="large"
                     component="a"
@@ -53,8 +54,8 @@ export default function Banner() {
                         background: "white",
                     }}
                 >
-                    Pre Register Now
-                </Button>
+                    Register Now 
+                </Button> */}
             </Box>
         </BannerLayout>
     );

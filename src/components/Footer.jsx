@@ -115,7 +115,7 @@ function Footer() {
                         }}
                     >
                         <Typography variant="h6" component="span" color="white" sx={{ mr: 0.5 }}>
-                            TMA
+                            Tuzo Za Tamthilia
                         </Typography>
                         <Typography variant="body2" component="span" color="white">
                             Copyright &copy; {currentYear}
