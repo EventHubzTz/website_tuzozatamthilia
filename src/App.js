@@ -4,7 +4,7 @@ import { CacheProvider } from "@emotion/react";
 import { CssBaseline } from "@mui/material";
 import { RouterProvider } from "react-router-dom";
 import { router } from "./router";
-import ImageLionLoader from "./components/ImageLionLoader";
+// import ImageLionLoader from "./components/ImageLionLoader";
 import { ThemeProvider } from '@mui/material/styles';
 import { lightTheme } from "./theme";
 

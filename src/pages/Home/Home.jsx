@@ -58,7 +58,7 @@ function Home() {
                         align="center"
                         sx={{
                             mt: 4,
-                            lineHeight: 1.0,
+                            lineHeight: 1.8,
                             color: "white"
                         }}
                     >
@@ -72,7 +72,7 @@ function Home() {
                         align="center"
                         sx={{
                             mt: 4,
-                            lineHeight: 0.8,
+                            lineHeight: 1.8,
                             color: "white",
                         }}
                     >

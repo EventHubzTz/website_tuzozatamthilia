@@ -4,7 +4,7 @@ import { Box, Typography, Button } from '@mui/material'; // Correct import for B
 import { votingUrl } from '../utils/constants';
 
 const backgroundImage =
-    'assets/gif/TTT_Logo_GIF_2.gif';
+    'assets/gif/TTTLogoGIF_2_1.gif';
 
 export default function Banner() {
     return (
