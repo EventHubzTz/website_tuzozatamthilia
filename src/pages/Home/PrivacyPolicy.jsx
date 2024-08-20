@@ -16,23 +16,23 @@ function PrivacyPolicy() {
                     a)	Personal data: such as your name, email address, date of birth, and gender provided during registration.<br />
                     b)	Voting preferences: data related to your voting activities, including the nominees you vote for and the frequency of your participation.<br />
                     c)	Device information: including your IP address, browser type, operating system, and device identifiers used to access the platform.<br />
-                    d)	User-generated content: such as comments, reviews, or submissions you make on the TMA voting system.
+                    d)	User-generated content: such as comments, reviews, or submissions you make on the Tuzo Za Tamthilia voting system.
                 </Typography>
                 <Typography color="white" variant='h6' sx={{ mb: 4 }}>Use of Information</Typography>
                 <Typography color="white" sx={{ mb: 4 }}>
                     The information we collect is used for the following purposes:<br />
                     a)	Facilitating the voting process and determining award recipients.<br />
-                    b)	Analyzing user behavior to improve the functionality, usability, and performance of the TMA voting system.<br />
+                    b)	Analyzing user behavior to improve the functionality, usability, and performance of the Tuzo Za Tamthilia voting system.<br />
                     c)	Personalizing your experience on the platform, including providing tailored content, recommendations, and communications.<br />
                     d)	Communicating with you about updates, news, events, promotions, and other relevant information related to the Tanzania Music Awards.
                 </Typography>
                 <Typography color="white" variant='h6' sx={{ mb: 4 }}>Data Sharing</Typography>
                 <Typography color="white" sx={{ mb: 4 }}>
                     We may share user information with third parties under the following circumstances:<br />
-                    a)	With sponsors, partners, or affiliates: to promote the Tanzania Music Awards (TMA) or
+                    a)	With sponsors, partners, or affiliates: to promote the Tanzania Music Awards (Tuzo Za Tamthilia) or
                     enhance the voting experience, provided that these third parties agree to maintain the
                     confidentiality and security of your data.<br />
-                    b)	With service providers: to assist us in operating, managing, and improving the TMA
+                    b)	With service providers: to assist us in operating, managing, and improving the Tuzo Za Tamthilia
                     voting system, subject to contractual agreements that require them to protect your
                     personal information.<br />
                     c)	In response to legal obligations: when required by law, regulation, legal process,
@@ -66,7 +66,7 @@ function PrivacyPolicy() {
                 <Typography color="white" variant='h6' sx={{ mb: 4 }}>Policy Updates</Typography>
                 <Typography color="white" sx={{ mb: 4 }}>
                     We may update this privacy policy from time to time to reflect changes in our practices,
-                    legal requirements, or industry standards. Any updates will be posted on the TMA voting
+                    legal requirements, or industry standards. Any updates will be posted on the Tuzo Za Tamthilia voting
                     system, and we will notify users of significant changes via email or through the platform.
                     We encourage you to review this privacy policy periodically to stay informed about how
                     we collect, use, and protect your personal information.
@@ -75,7 +75,7 @@ function PrivacyPolicy() {
                 <Typography color="white" sx={{ mb: 4 }}>
                     For inquiries, requests, or concerns regarding our privacy practices or this privacy policy, please contact us at:<br />
                     Tanzania National Arts Council<br />
-                    sss@basata.go.tz<br />
+                    info@tuzozatamthilia.co.tz<br />
                     +255766666666
                 </Typography>
             </Container>

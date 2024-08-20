@@ -6,7 +6,7 @@ import { votingUrl } from '../utils/constants';
 
 const drawerWidth = 260;
 const navItems = [
-    // { label: 'Register Now', route: '/' },
+    { label: 'Tuzo Za Tamthilia 2024', route: '/' },
 ];
 
 function Header(props) {
@@ -81,7 +81,7 @@ function Header(props) {
                         <Box
                             component='img'
                             alt="Logo"
-                            src="assets/images/tma_logo.png"
+                            src="assets/images/TTT-Logo.png"
                             sx={{
                                 width: 80,
                                 display: { xs: 'none', sm: 'block' }

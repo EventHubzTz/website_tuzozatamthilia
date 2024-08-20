@@ -21,8 +21,8 @@ function ImageLionLoader() {
                     height: { xs: "70vh", sm: "70vh", md: "50vh" },
                     objectFit: "cover"
                 }}
-                alt="Lion"
-                src="assets/gif/lion.gif"
+                alt="Logo"
+                src="assets/gif/TTT_Logo_GIF_2.gif"
             />
         </Box>
     )

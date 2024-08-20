@@ -12,7 +12,7 @@ function Home() {
         <>
             <Header />
             <Banner />
-            {/* <Box
+            <Box
                 component="section"
                 sx={{
                     display: 'flex',
@@ -50,7 +50,7 @@ function Home() {
                             mt: 2,
                             width: "140px",
                             mx: "auto",
-                            borderWidth: 1.5
+                            borderWidth: 1.8
                         }}
                     />
                     <Typography
@@ -58,29 +58,31 @@ function Home() {
                         align="center"
                         sx={{
                             mt: 4,
-                            lineHeight: 1.8,
+                            lineHeight: 1.0,
                             color: "white"
                         }}
                     >
-                        We've been honored with prestigious awards from leading industry organizations <br />
-                        and associations, recognizing our contributions to innovation,  <br />
-                        leadership, and best practices in our field.
+                        We are excited to introduce to the world the prestigious Tanzania Series Awards for 2024.
+                        These awards, conferred by leading industry organizations and associations, 
+                        acknowledge our remarkable contributions to innovation, 
+                        leadership, and the adoption of best practices in our field.
                     </Typography>
                     <Typography
                         variant='body1'
                         align="center"
                         sx={{
                             mt: 4,
-                            lineHeight: 1.8,
+                            lineHeight: 0.8,
                             color: "white",
                         }}
                     >
-                        We're proud recipients of innovation awards that celebrate our pioneering spirit,  <br />
-                        groundbreaking technologies, and forward-thinking to solving  challenges.
+                        These accolades highlight our pioneering spirit, groundbreaking technologies,  
+                        and forward-thinking approach to addressing global challenges, underscoring our 
+                        commitment to excellence and innovation.
                     </Typography>
                 </Container>
             </Box>
-            <Grid container sx={{ mt: 0 }}>
+            {/* <Grid container sx={{ mt: 0 }}>
                 <Grid item xs={12} sm={12} md={6} lg={6} xl={6} sx={{ position: "relative" }}>
                     <Box
                         component='img'
@@ -372,9 +374,9 @@ function Home() {
                         />
                     </Box>
                 </Grid>
-            </Grid>
+            </Grid> */}
 
-            <Box
+            {/* <Box
                 component="section"
                 sx={{
                     display: 'flex',
@@ -441,8 +443,8 @@ function Home() {
                         hop, and cultural dances, adding flair, and excitement to any performance.
                     </Typography>
                 </Container>
-            </Box>
-            <Grid container sx={{ mt: 0 }}>
+            </Box> */}
+            {/* <Grid container sx={{ mt: 0 }}>
                 <Grid item xs={12} sm={12} md={6} lg={6} xl={6} sx={{ position: "relative" }}>
                     <Box
                         component='img'
@@ -616,9 +618,9 @@ function Home() {
                         </Box>
                     </Container>
                 </Grid>
-            </Grid>
+            </Grid> */}
             <Grid container sx={{ mt: 1 }}>
-                <Grid item xs={12} sm={12} md={3} lg={3} xl={3}>
+                {/* <Grid item xs={12} sm={12} md={3} lg={3} xl={3}>
                     <Box
                         sx={{
                             display: "flex",
@@ -646,8 +648,8 @@ function Home() {
                             src="assets/images/image3.jpg"
                         />
                     </Box>
-                </Grid>
-                <Grid item xs={12} sm={12} md={3} lg={3} xl={3}>
+                </Grid> */}
+                {/* <Grid item xs={12} sm={12} md={3} lg={3} xl={3}>
                     <Box
                         sx={{
                             display: "flex",
@@ -675,8 +677,8 @@ function Home() {
                             src="assets/images/image5.jpg"
                         />
                     </Box>
-                </Grid>
-                <Grid item xs={12} sm={12} md={3} lg={3} xl={3}>
+                </Grid> */}
+                {/* <Grid item xs={12} sm={12} md={3} lg={3} xl={3}>
                     <Box
                         sx={{
                             display: "flex",
@@ -704,8 +706,8 @@ function Home() {
                             src="assets/images/image3.jpg"
                         />
                     </Box>
-                </Grid>
-                <Grid item xs={12} sm={12} md={3} lg={3} xl={3}>
+                </Grid> */}
+                {/* <Grid item xs={12} sm={12} md={3} lg={3} xl={3}>
                     <Box
                         sx={{
                             display: "flex",
@@ -733,11 +735,9 @@ function Home() {
                             src="assets/images/image5.jpg"
                         />
                     </Box>
-                </Grid>
+                </Grid> */}
             </Grid>
-
-
-            <Box
+            {/* <Box
                 component="section"
                 sx={{
                     display: 'flex',
@@ -804,8 +804,8 @@ function Home() {
                         collaborating on innovative projects, and contributing to meaningful work
                     </Typography>
                 </Container>
-            </Box>
-            <Grid container sx={{ mt: 1 }}>
+            </Box> */}
+            {/* <Grid container sx={{ mt: 1 }}>
                 <Grid item xs={12} sm={12} md={3} lg={3} xl={3}>
                     <Box
                         sx={{
@@ -922,9 +922,9 @@ function Home() {
                         />
                     </Box>
                 </Grid>
-            </Grid>
+            </Grid> */}
 
-            <Box
+            {/* <Box
                 component="section"
                 sx={{
                     display: 'flex',
@@ -993,7 +993,6 @@ function Home() {
                 </Container>
             </Box> */}
             <Sponsors />
-
             <Footer />
         </>
     )
