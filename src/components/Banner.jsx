@@ -21,7 +21,7 @@ export default function Banner() {
                 p: { xs: 8, sm: 5, md: 0 }
             }}>
                 <Typography color="inherit" variant="h2">
-                    Tamthilia | Tanzania
+                    Tamthilia Tanzania
                 </Typography>
                 {/* <Typography
                     color="inherit"
@@ -30,7 +30,7 @@ export default function Banner() {
                 >
                     Tuzo Za Tamthilia 2024 are HERE!!
                 </Typography> */}
-                <Button
+                {/* <Button
                     variant="contained"
                     size="large"
                     component="a"
@@ -49,7 +49,32 @@ export default function Banner() {
                     }}
                 >
                     Tuzo Za Tamthilia 2024 are HERE!! 
-                </Button>
+                </Button> */}
+                <span
+                    style={{
+                        display: 'inline-block',
+                        padding: '10px 20px',
+                        minWidth: 200,
+                        transition: 'all 0.5s',
+                        color: "black",
+                        borderRadius: 0,
+                        background: "white",
+                        cursor: 'pointer',
+                        textAlign: 'center',
+                    }}
+                    onMouseEnter={(e) => {
+                        e.currentTarget.style.transform = "scale3d(1.05, 1.15, 1)";
+                        e.currentTarget.style.backgroundColor = "green";
+                        e.currentTarget.style.color = "white";
+                    }}
+                    onMouseLeave={(e) => {
+                        e.currentTarget.style.transform = "scale3d(1, 1, 1)";
+                        e.currentTarget.style.backgroundColor = "white";
+                        e.currentTarget.style.color = "black";
+                    }}
+                >
+                    Tuzo Za Tamthilia 2024 are HERE!! 
+            </span>
             </Box>
         </BannerLayout>
     );
