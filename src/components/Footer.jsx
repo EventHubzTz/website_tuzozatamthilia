@@ -130,7 +130,7 @@ function Footer() {
                         </a>
                         <a href="https://www.facebook.com/profile.php?id=61564360434719" target='_blank' rel='noreferrer'>
                             {/* <i className="fa-brands fa-x-twitter logo" /> */}
-                            <i class="fa-brands fa-facebook"></i>
+                            <i className="fa-brands fa-facebook logo"></i>
                         </a>
                         
 
