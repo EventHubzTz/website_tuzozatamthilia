@@ -122,21 +122,24 @@ function Footer() {
                         </Typography>
                     </Box>
                     <Stack direction="row" alignItems="center" spacing={{ xs: 1, sm: 1, md: 2 }} sx={{ ml: "auto" }}>
-                        <a href="https://tuzozatamthilia.info" target='_blank' rel='noreferrer'>
+                        <a href="https://www.instagram.com/tuzozatamthilia_tz/" target='_blank' rel='noreferrer'>
                             <i className="fa-brands fa-instagram logo" />
                         </a>
-                        <a href="https://tuzozatamthilia.info" target='_blank' rel='noreferrer'>
+                        <a href="https://www.youtube.com/@TuzozatamthiliaTanzania" target='_blank' rel='noreferrer'>
                             <i className="fa-brands fa-youtube logo" />
                         </a>
-                        <a href="#_" target='_blank' rel='noreferrer'>
-                            <i className="fa-brands fa-x-twitter logo" />
+                        <a href="https://www.facebook.com/profile.php?id=61564360434719" target='_blank' rel='noreferrer'>
+                            {/* <i className="fa-brands fa-x-twitter logo" /> */}
+                            <i class="fa-brands fa-facebook"></i>
                         </a>
-                        <a href="https://tuzozatamthilia.info" target='_blank' rel='noreferrer'>
+                        
+
+                        {/* <a href="https://tuzozatamthilia.info" target='_blank' rel='noreferrer'>
                             <i className="fa-brands fa-tiktok logo" />
-                        </a>
-                        <a href="https://tuzozatamthilia.info" target='_blank' rel='noreferrer'>
+                        </a> */}
+                        {/* <a href="https://tuzozatamthilia.info" target='_blank' rel='noreferrer'>
                             <i className="fa-brands fa-snapchat logo" />
-                        </a>
+                        </a> */}
                     </Stack>
                 </Box>
             </Container>
