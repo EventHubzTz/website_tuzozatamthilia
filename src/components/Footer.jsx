@@ -122,19 +122,19 @@ function Footer() {
                         </Typography>
                     </Box>
                     <Stack direction="row" alignItems="center" spacing={{ xs: 1, sm: 1, md: 2 }} sx={{ ml: "auto" }}>
-                        <a href="https://www.instagram.com/tanzaniamusicawards_" target='_blank' rel='noreferrer'>
+                        <a href="https://tuzozatamthilia.info" target='_blank' rel='noreferrer'>
                             <i className="fa-brands fa-instagram logo" />
                         </a>
-                        <a href="https://www.youtube.com/channel/tzmusicawards" target='_blank' rel='noreferrer'>
+                        <a href="https://tuzozatamthilia.info" target='_blank' rel='noreferrer'>
                             <i className="fa-brands fa-youtube logo" />
                         </a>
-                        <a href="https://twitter.com/tzmusicawards" target='_blank' rel='noreferrer'>
+                        <a href="#_" target='_blank' rel='noreferrer'>
                             <i className="fa-brands fa-x-twitter logo" />
                         </a>
-                        <a href="https://www.tiktok.com/@tzmusicawards" target='_blank' rel='noreferrer'>
+                        <a href="https://tuzozatamthilia.info" target='_blank' rel='noreferrer'>
                             <i className="fa-brands fa-tiktok logo" />
                         </a>
-                        <a href="https://www.snapchat.com/tzmusicawards" target='_blank' rel='noreferrer'>
+                        <a href="https://tuzozatamthilia.info" target='_blank' rel='noreferrer'>
                             <i className="fa-brands fa-snapchat logo" />
                         </a>
                     </Stack>

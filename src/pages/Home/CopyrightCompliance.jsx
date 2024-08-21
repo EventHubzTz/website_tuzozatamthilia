@@ -10,7 +10,7 @@ function CopyrightCompliance() {
             <Container>
                 <Typography color="white" variant='h6' sx={{ mb: 4 }}>Copyright Notice</Typography>
                 <Typography color="white" sx={{ mb: 4 }}>
-                    The Tanzania Music Awards (TMA) voting system, including its website,
+                    The Tuzo Za Tamthilia(TMA) voting system, including its website,
                     platform, content, and voting processes, is the intellectual property
                     of Aleco Group. All rights are reserved and protected by Tanzanian
                     copyright laws and international treaties. Any unauthorized use,
@@ -58,9 +58,9 @@ function CopyrightCompliance() {
                 <Typography color="white">
                     Contact Information: For copyright-related inquiries, reports of infringement,
                     or further assistance, please don't hesitate to contact us at:<br />
-                    Tanzania National Arts Council<br />
-                    sss@basata.go.tz<br />
-                    +255766666666
+                    Tanzania Film Board<br />
+                    info@tuzozatamthilia.co.tz<br />
+                    +44 7916 736855<br />
                 </Typography>
             </Container>
             <Footer />

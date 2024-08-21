@@ -11,7 +11,7 @@ function TermsOfUse() {
                 <Typography color="white" variant='h6' sx={{ mb: 4 }}>Terms of Use</Typography>
                 <Typography color="white" variant='h6' sx={{ mb: 4 }}>Acceptance of Terms</Typography>
                 <Typography color="white" sx={{ mb: 4 }}>
-                    By accessing or using the Tanzania Music Awards (Tuzo Za Tamthilia) voting system, you acknowledge
+                    By accessing or using the Tuzo Za Tamthilia(Tuzo Za Tamthilia) voting system, you acknowledge
                     that you have read, understood, and agree to abide by the terms of use outlined in
                     this document. Your continued use of the platform constitutes your acceptance of
                     these terms and any updates or modifications that may occur.
@@ -30,14 +30,14 @@ function TermsOfUse() {
                 </Typography>
                 <Typography color="white" variant='h6' sx={{ mb: 4 }}>Intellectual Property</Typography>
                 <Typography color="white" sx={{ mb: 4 }}>
-                    All intellectual property associated with the Tanzania Music Awards (Tuzo Za Tamthilia) voting system,
+                    All intellectual property associated with the Tuzo Za Tamthilia(Tuzo Za Tamthilia) voting system,
                     including but not limited to the website, platform, content, and user-generated submissions,
                     are owned by Aleco Group. Users retain ownership of their original content but grant Tuzo Za Tamthilia
                     voting system the right to use, reproduce, and distribute such content for the purposes of the voting process.
                 </Typography>
                 <Typography color="white" variant='h6' sx={{ mb: 4 }}>Termination</Typography>
                 <Typography color="white" sx={{ mb: 4 }}>
-                    Access to the Tanzania Music Awards (Tuzo Za Tamthilia) voting system may be terminated or suspended
+                    Access to the Tuzo Za Tamthilia(Tuzo Za Tamthilia) voting system may be terminated or suspended
                     at any time, with or without cause, at the discretion of the administrators. Reasons
                     for termination may include but are not limited to:<br />
                     a)	Violation of the terms of use outlined in this document.<br />
@@ -55,10 +55,10 @@ function TermsOfUse() {
                 <Typography color="white" variant='h6' sx={{ mb: 4 }}>Contact Information</Typography>
                 <Typography color="white" sx={{ mb: 4 }}>
                     For inquiries, assistance, or to report any violations of these terms of use, please contact
-                    the administrators of the Tanzania Music Awards (Tuzo Za Tamthilia) voting system at:<br />
-                    Tanzania National Arts Council<br />
-                    sss@basata.go.tz<br />
-                    +255766666666
+                    the administrators of the Tuzo Za Tamthilia(Tuzo Za Tamthilia) voting system at:<br />
+                    Tanzania Film Board (TFB)<br />
+                    info@tuzozatamthilia.co.tz<br />
+                    +44 7916 736855
                 </Typography>
             </Container>
             <Footer />

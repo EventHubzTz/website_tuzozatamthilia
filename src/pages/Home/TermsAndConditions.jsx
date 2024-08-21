@@ -11,13 +11,13 @@ function TermsAndConditions() {
                 <Typography color="white" variant='h6' sx={{ mb: 4 }}>Terms & Conditions</Typography>
                 <Typography color="white" variant='h6' sx={{ mb: 4 }}>Introduction</Typography>
                 <Typography color="white" sx={{ mb: 4 }}>
-                    Welcome to the Tanzania Music Awards (Tuzo Za Tamthilia) voting system. These are the rules you need to
+                    Welcome to the Tuzo Za Tamthilia(Tuzo Za Tamthilia) voting system. These are the rules you need to
                     follow while participating in the voting process. By taking part in the Tuzo Za Tamthilia voting system,
                     you agree to follow these rules. If you don't agree, please don't use the Tuzo Za Tamthilia voting system.
                 </Typography>
                 <Typography color="white" variant='h6' sx={{ mb: 4 }}>Eligibility</Typography>
                 <Typography color="white" sx={{ mb: 4 }}>
-                    Participation in the Tanzania Music Awards (Tuzo Za Tamthilia) voting system is open to
+                    Participation in the Tuzo Za Tamthilia(Tuzo Za Tamthilia) voting system is open to
                     all music enthusiasts who meet the following criteria:<br />
                     •	Age: Participants must be of legal age according to their country's laws, typically 18 years or older.<br />
                     •	Residency: Participants can be from any country around the globe, with no restrictions based on nationality or residency.<br />
@@ -60,7 +60,7 @@ function TermsAndConditions() {
                 </Typography>
                 <Typography color="white" variant='h6' sx={{ mb: 4 }}>Awards Criteria</Typography>
                 <Typography color="white" sx={{ mb: 4 }}>
-                    The Tanzania Music Awards (Tuzo Za Tamthilia) celebrates excellence and achievement within the music industry, with nominees
+                    The Tuzo Za Tamthilia(Tuzo Za Tamthilia) celebrates excellence and achievement within the music industry, with nominees
                     being evaluated based on a comprehensive set of criteria designed to recognize outstanding contributions and performances.
                     The criteria used for assessing nominees may include, but are not limited to, the following:<br />
                     <br />
@@ -88,7 +88,7 @@ function TermsAndConditions() {
                 </Typography>
                 <Typography color="white" variant='h6' sx={{ mb: 4 }}>Disqualification</Typography>
                 <Typography color="white" sx={{ mb: 4 }}>
-                    Participants in the Tanzania Music Awards (Tuzo Za Tamthilia) voting system must adhere to the rules and regulations outlined to maintain the integrity and
+                    Participants in the Tuzo Za Tamthilia(Tuzo Za Tamthilia) voting system must adhere to the rules and regulations outlined to maintain the integrity and
                     fairness of the process. Disqualification may occur under the following circumstances:<br />
                     1.	Violation of Terms: Any participant found to be in breach of the terms and conditions set forth in the Tuzo Za Tamthilia voting system may face disqualification. This includes but is not limited to:<br />
                     •	Engaging in fraudulent activities such as manipulating votes, using automated scripts or bots, or attempting to undermine the integrity of the voting process.<br />
@@ -108,7 +108,7 @@ function TermsAndConditions() {
                 </Typography>
                 <Typography color="white" variant='h6' sx={{ mb: 4 }}>Limitation of Liability</Typography>
                 <Typography color="white" sx={{ mb: 4 }}>
-                    While the administrators of the Tanzania Music Awards (Tuzo Za Tamthilia) voting system strive to provide a secure and reliable platform for participants to engage in the voting process, it is important to acknowledge certain limitations of liability to ensure a clear understanding of the responsibilities involved. The following points outline the scope of liability and the associated disclaimers:<br />
+                    While the administrators of the Tuzo Za Tamthilia(Tuzo Za Tamthilia) voting system strive to provide a secure and reliable platform for participants to engage in the voting process, it is important to acknowledge certain limitations of liability to ensure a clear understanding of the responsibilities involved. The following points outline the scope of liability and the associated disclaimers:<br />
                     1.	Accuracy and Completeness: The administrators endeavor to ensure the accuracy and completeness of information presented on the Tuzo Za Tamthilia voting platform. However, they cannot guarantee that all information provided is error-free, up-to-date, or comprehensive. Participants acknowledge and accept that they use the platform and its contents at their own risk and discretion.<br />
                     2.	Technical Issues: Despite diligent efforts to maintain the functionality and security of the Tuzo Za Tamthilia voting system, technical issues, interruptions, or disruptions may occur. These could include server downtime, network outages, software bugs, or other unforeseen circumstances beyond the administrators' control. Participants understand and agree that the administrators shall not be liable for any losses, damages, or inconvenience resulting from such technical issues.<br />
                     3.	Third-Party Content: The Tuzo Za Tamthilia voting platform may contain links to third-party websites, content, or services for informational or promotional purposes. The administrators do not endorse or control the content of these third-party sites and therefore disclaim any responsibility or liability for their accuracy, legality, or appropriateness. Participants access and use third-party content at their own risk and are subject to the terms and conditions of those sites.<br />
@@ -118,7 +118,7 @@ function TermsAndConditions() {
                 </Typography>
                 <Typography color="white" variant='h6' sx={{ mb: 4 }}>Dispute Resolution</Typography>
                 <Typography color="white" sx={{ mb: 4 }}>
-                    Disputes or disagreements may occasionally arise during the course of participating in the Tanzania Music Awards (Tuzo Za Tamthilia) voting system. To ensure fairness and clarity in resolving such matters, the following dispute resolution procedures are in place:<br />
+                    Disputes or disagreements may occasionally arise during the course of participating in the Tuzo Za Tamthilia(Tuzo Za Tamthilia) voting system. To ensure fairness and clarity in resolving such matters, the following dispute resolution procedures are in place:<br />
                     1.	Internal Resolution Channels: Participants are encouraged to first attempt to resolve any disputes or concerns directly with the administrators of the Tuzo Za Tamthilia voting system. This can typically be achieved by contacting the designated support team via email, phone, or other specified communication channels. Administrators will make every effort to address inquiries promptly and provide appropriate assistance in resolving disputes.<br />
                     2.	Evidence Submission: In cases where disputes involve allegations of misconduct, fraud, or other irregularities, participants may be required to provide relevant evidence or documentation to support their claims. This may include screenshots, timestamps, transaction records, or any other information pertinent to the dispute. The administrators will carefully review the evidence provided and make a fair determination based on the available information.<br />
                     3.	Mediation and Negotiation: If initial attempts at resolving a dispute directly with the administrators prove unsuccessful, participants may request mediation or negotiation services to facilitate communication and reach a mutually acceptable resolution. Mediators or neutral third parties may be appointed to assist in facilitating constructive dialogue and finding common ground between the parties involved.<br />
@@ -133,9 +133,9 @@ function TermsAndConditions() {
                     Contact Information: If you have questions or need help with the Tuzo Za Tamthilia voting system, you can reach out to us at:
                 </Typography>
                 <Typography color="white">
-                    Tanzania National Arts Council<br />
-                    sss@basata.go.tz<br />
-                    +255766666666<br />
+                    Tanzania Film Board<br />
+                    info@tuzozatamthilia.co.tz<br />
+                    +44 7916 736855<br />
                 </Typography>
             </Container>
             <Footer />

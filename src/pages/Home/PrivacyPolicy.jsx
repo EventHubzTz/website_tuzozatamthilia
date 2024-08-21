@@ -29,7 +29,7 @@ function PrivacyPolicy() {
                 <Typography color="white" variant='h6' sx={{ mb: 4 }}>Data Sharing</Typography>
                 <Typography color="white" sx={{ mb: 4 }}>
                     We may share user information with third parties under the following circumstances:<br />
-                    a)	With sponsors, partners, or affiliates: to promote the Tanzania Music Awards (Tuzo Za Tamthilia) or
+                    a)	With sponsors, partners, or affiliates: to promote the Tuzo Za Tamthilia(Tuzo Za Tamthilia) or
                     enhance the voting experience, provided that these third parties agree to maintain the
                     confidentiality and security of your data.<br />
                     b)	With service providers: to assist us in operating, managing, and improving the Tuzo Za Tamthilia
@@ -74,9 +74,9 @@ function PrivacyPolicy() {
                 <Typography color="white" variant='h6' sx={{ mb: 4 }}>Contact Information</Typography>
                 <Typography color="white" sx={{ mb: 4 }}>
                     For inquiries, requests, or concerns regarding our privacy practices or this privacy policy, please contact us at:<br />
-                    Tanzania National Arts Council<br />
+                    Tanzania Film Board<br />
                     info@tuzozatamthilia.co.tz<br />
-                    +255766666666
+                    +44 7916 736855<br />
                 </Typography>
             </Container>
             <Footer />
